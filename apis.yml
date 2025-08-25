@@ -10,6 +10,8 @@ apis:
     properties:
       - url: ' https://www.w3.org/'
         type: Documentation
+      - type: OpenAPI
+        url: properties/w3c-openapi.yml
     description: >-
       The World Wide Web Consortium (W3C) develops standards and guidelines to
       help everyone build a web based on the principles of accessibility,
