@@ -76,7 +76,7 @@ common:
     name: Blog RSS
     type: BlogFeeds
   - url: https://www.w3.org/news/feed/
-    name: Blog RSS
+    name: News RSS
     type: BlogFeeds
 created: '2025-08-25'
 modified: '2025-08-28'
