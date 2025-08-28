@@ -72,7 +72,7 @@ common:
     name: GitHub Organization
     type: GitHubOrganization
     description: 'null'
-  - url: www.w3.org/blog/feed/
+  - url: https://www.w3.org/blog/feed/
     name: Blog RSS
     type: BlogFeeds
 created: '2025-08-25'
