@@ -27,41 +27,37 @@ common:
   - url: https://www.w3.org/
     name: W3C
     type: Website
-    description: 'null'
   - url: https://www.w3.org/news/
-    name: News | W3C
+    name: News
     type: News
     description: 'null'
   - url: https://www.w3.org/press-releases/
-    name: Press releases | W3C
+    name: Press Releases
     type: PressReleases
     description: 'null'
   - url: https://www.w3.org/blog/
-    name: Blog | W3C
+    name: Blog
     type: Blog
-    description: 'null'
   - url: https://www.w3.org/donate/
-    name: W3C Donations Program | W3C
+    name: W3C Donations Program
     type: Donations
     description: 'null'
   - url: https://www.w3.org/help/
-    name: Help | W3C
+    name: Help
     type: Help
     description: 'null'
   - url: https://www.w3.org/copyright/intellectual-rights/
-    name: Intellectual rights | Copyright | W3C
+    name: Intellectual Rights
     type: CopyrightPolicy
-    description: 'null'
   - url: https://www.w3.org/policies/logos/
     name: Logos and icons | Policies & legal information | W3C
     type: Branding
-    description: 'null'
   - url: https://www.w3.org/sponsor/
-    name: W3C Sponsorships Program | W3C
+    name: W3C Sponsorships
     type: Sponsorship
     description: 'null'
   - url: https://www.w3.org/events/
-    name: Events | W3C
+    name: Events
     type: Events
     description: 'null'
   - url: https://w3c.social/@w3c
