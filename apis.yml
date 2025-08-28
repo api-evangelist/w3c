@@ -357,7 +357,7 @@ common:
           Accessibility Education and Outreach Working Group (EOWG), share news
           of its closure, and look forward to a new chapter in W3C accessibility
           work.
-    name: Blog RSS
+    name: Blog Feed
     type: BlogFeeds
   - url: https://www.w3.org/news/feed/
     data:
@@ -563,7 +563,7 @@ common:
           The Accessibility Guidelines Working Group published an update that
           addresses minor technical issues in the December 2024 publication of
           WCAG 2.1.
-    name: News RSS
+    name: News Feed
     type: BlogFeeds
 created: '2025-08-25'
 modified: '2025-08-28'
