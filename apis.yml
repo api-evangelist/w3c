@@ -87,8 +87,8 @@ common:
         title: 26 awardees in W3C's TPAC Inclusion and Invited Expert Support funds
       - author: Seth Dobbs, W3C CEO and President
         description: >-
-          In this blog post about the newly published W3C Statement “Vision for
-          W3C”, W3C CEO Seth Dobbs emphasizes the importance of principle-driven
+          In this blog post about the newly published W3C Statement Vision for
+          W3C, W3C CEO Seth Dobbs emphasizes the importance of principle-driven
           leadership and how vision gives clarity to move towards meaningful
           goals.
         link: >-
@@ -125,12 +125,12 @@ common:
       - author: Seth Dobbs, W3C CEO and President
         description: >-
           In this blog post, W3C President and CEO Seth Dobbs introduces the
-          initiatives for 2025-2028 that will support W3C’s strategic
+          initiatives for 2025-2028 that will support W3Cs strategic
           objectives.
         link: >-
           https://www.w3.org/blog/2025/public-release-of-w3cs-2025-2028-strategic-objectives-initiatives/
         pubDate: Mon, 30 Jun 2025 21:30:00 +0000
-        title: Public release of W3C’s 2025-2028 strategic objectives initiatives
+        title: Public release of W3Cs 2025-2028 strategic objectives initiatives
       - author: Chris Wilson, W3C Board of Directors Development Committee Chair
         description: >-
           The W3C Board of Directors has open seats that can be appointed by the
@@ -146,7 +146,7 @@ common:
       - author: Seth Dobbs, W3C CEO and President
         description: >-
           In this blog post, W3C CEO Seth Dobbs explains why and how privacy on
-          the web as a requirement for humanity is central to W3C’s mission,
+          the web as a requirement for humanity is central to W3Cs mission,
           mentions current focus on Global Privacy Control (GPC), private
           advertising, and the recent W3C Statement on privacy principles.
         link: >-
@@ -160,7 +160,7 @@ common:
           Principles, which provides definitions for privacy concepts plus
           privacy principles to guide web development. Learn more about this
           guide and how it can help us all to create a more trustworthy web for
-          users around the world by “levelling up” privacy.
+          users around the world by levelling up privacy.
         link: >-
           https://www.w3.org/blog/2025/new-privacy-principles-for-a-more-trustworthy-web/
         pubDate: Thu, 22 May 2025 09:58:00 +0000
@@ -174,7 +174,7 @@ common:
           https://www.w3.org/blog/2025/educational-and-cultural-exchange-on-digital-accessibility-highlights-from-hong-kong/
         pubDate: Thu, 15 May 2025 08:30:00 +0000
         title: >-
-          Educational and Cultural Exchange on Digital Accessibility —
+          Educational and Cultural Exchange on Digital Accessibility 
           Highlights from Hong Kong
       - author: Susan Neuhaus, co-Chair of the Publishing Maintenance Working Group
         description: >-
@@ -202,7 +202,7 @@ common:
         pubDate: Tue, 22 Apr 2025 10:23:00 +0000
         title: 'Join the W3C Exploration Interest Group: where standards start'
       - author: >-
-          Patrick Brosset, co-chair of the WebDX Community Group, François
+          Patrick Brosset, co-chair of the WebDX Community Group, Fran�ois
           Daoust, co-chair of the WebDX Community Group
         description: >-
           The WebDX Community Group has completed a first nearly complete
@@ -220,7 +220,7 @@ common:
           development. SWAG's mission is to enhance web app security by creating
           best practices for developers and fostering collaboration. A key
           output includes videos on configuring CSP and Trusted Types, which
-          mitigate XSS. Based on Google’s adoption experience, these resources
+          mitigate XSS. Based on Googles adoption experience, these resources
           offer tools to help developers securely configure these protections
           with minimal effort.
         link: >-
@@ -246,7 +246,7 @@ common:
           The W3C Web Interoperable Runtimes Community Group ("WinterCG") and
           Ecma International (the organization which standardizes ECMAScript,
           also known as JavaScript) have collaborated to create a new Ecma
-          Technical Committee,TC55 – Web-interoperable server runtimes, dubbed
+          Technical Committee,TC55  Web-interoperable server runtimes, dubbed
           "WinterTC", for the development of a common web-aligned API surface
           for server-side JavaScript runtimes like Node.js, Deno and Cloudflare
           Workers.
@@ -258,9 +258,9 @@ common:
           runtimes through WinterTC
       - author: Seth Dobbs, W3C CEO and President
         description: >-
-          Discover the World Wide Web Consortium’s 30th anniversary year
+          Discover the World Wide Web Consortiums 30th anniversary year
           animated holiday card and read about some of the highlights of the
-          year 2024 in W3C’s CEO Seth Dobbs’ blog post.
+          year 2024 in W3Cs CEO Seth Dobbs blog post.
         link: >-
           https://www.w3.org/blog/2024/happy-holidays-from-the-world-wide-web-consortium/
         pubDate: Wed, 18 Dec 2024 19:45:00 +0000
@@ -280,7 +280,7 @@ common:
         title: W3C seeking community input for TAG appointment
       - author: Daniel Appelquist, TAG co-chair
         description: >-
-          The Ethical Web Principles are a manifesto of W3C’s core values and
+          The Ethical Web Principles are a manifesto of W3Cs core values and
           principles. In this post, W3C Technical Architecture co-chair Dan
           Appelquist outlines how to go from words to action.
         link: >-
@@ -291,7 +291,7 @@ common:
           Daniel Appelquist, TAG co-chair, Yves Lafon, W3C Team contact for the
           TAG
         description: >-
-          The Ethical Web Principles, which build on W3C’s core values and
+          The Ethical Web Principles, which build on W3Cs core values and
           principles in the web and its architecture, are a call to action for
           the web industry and for W3C itself, aiming to deliver positive social
           outcomes. As we expand the web platform, we must consider the
@@ -320,7 +320,7 @@ common:
         title: Sustainable Web Interest Group is formed
       - author: Seth Dobbs
         description: >-
-          In this blog post, W3C CEO Seth Dobbs describes W3C’s 30th anniversary
+          In this blog post, W3C CEO Seth Dobbs describes W3Cs 30th anniversary
           event, and shares his impressions after attending for the first time a
           W3C TPAC which attracts in a week several hundreds from the W3C
           community in order to coordinate solutions to web problems.
@@ -328,7 +328,7 @@ common:
           https://www.w3.org/blog/2024/w3c-30th-anniversary-impressions-on-my-first-tpac/
         pubDate: Wed, 23 Oct 2024 21:38:00 +0000
         title: W3C 30th anniversary & impressions on my first TPAC
-      - author: Ian Jacobs, François Daoust
+      - author: Ian Jacobs, Fran�ois Daoust
         description: >-
           In this post, the staff who organize TPAC breakout sessions share
           thoughts on the topics covered this year and some feedback received so
@@ -409,7 +409,7 @@ common:
         title: W3C invites implementations of Incremental Font Transfer
       - description: >-
           The W3C Advisory Board has published today as a W3C Statement the
-          document Vision for W3C, which articulates W3C’s core vision for the
+          document Vision for W3C, which articulates W3Cs core vision for the
           Web
         link: https://www.w3.org/news/2025/vision-for-w3c-is-a-w3c-statement/
         pubDate: Tue, 29 Jul 2025 10:38:00 +0000
@@ -432,7 +432,7 @@ common:
         title: 'First Public Working Draft: IMSC Text Profile 1.3'
       - description: >-
           This program is for people from an under-represented group and Invited
-          Experts who wouldn’t be able to attend or meaningfully contribute to
+          Experts who wouldnt be able to attend or meaningfully contribute to
           TPAC without financial support.
         link: >-
           https://www.w3.org/news/2025/w3c-opens-inclusion-fund-and-invited-expert-fund-for-tpac-2025/
