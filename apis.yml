@@ -421,7 +421,7 @@ common:
         title: >-
           Accessibility education and outreach: Another milestone in W3C's
           30-year history and evolution
-    x-api-evangelist-pulled: 2025/8/29
+    x-api-evangelist-pulled: 2025-8-29
   - url: https://www.w3.org/news/feed/
     name: News Feed
     type: BlogFeeds
