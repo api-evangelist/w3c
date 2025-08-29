@@ -69,12 +69,519 @@ common:
   - url: https://www.w3.org/events/feed/
     name: Events Feed
     type: BlogFeeds
+    data:
+      - description: >-
+          FreeonlinesessiontogetupdatesonWCAGrelationshiptootherstandardsandW3CWAIresourcestofocusonaccessibleuserexperiences
+        link: >-
+          https://www.w3.org/events/talks/2025/w3c-web-accessibility-initiative-wai-update-whats-in-it-for-you-2/
+        pubDate: Wed, 27 Aug 2025 18:13:00 +0000
+        title: W3C Web Accessibility Initiative (WAI) Update  What's in it for You
+      - description: >-
+          LivestreamedinterviewcoveringW3Csaccessibilitystandardsandtheirrelationshipwithaccessibilitystandardsaroundtheworld
+        link: >-
+          https://www.w3.org/events/talks/2025/a11y-chat-on-accessibility-standards/
+        pubDate: Wed, 27 Aug 2025 18:09:00 +0000
+        title: A11y Chat on Accessibility Standards
+      - description: >-
+          ShareperspectivesonW3CWAIaccessibilitystandardsandresourcesusedinEN301549EuropeanAccessibilityActEAAandISOIEC40500
+        link: >-
+          https://www.w3.org/events/talks/2025/w3c-web-accessibility-initiative-wai-town-hall/
+        pubDate: Wed, 27 Aug 2025 18:05:00 +0000
+        title: W3C Web Accessibility Initiative (WAI) Town Hall
+      - description: >-
+          ShawnLawtonHenryandKevinWhitewillgiveupdatesonWCAG2WCAG3andresourcestofocusontheuserexperiencesofdisabledpeople
+        link: >-
+          https://www.w3.org/events/talks/2025/w3c-web-accessibility-initiative-wai-update-whats-in-it-for-you/
+        pubDate: Thu, 31 Jul 2025 14:58:00 +0000
+        title: W3C Web Accessibility Initiative (WAI) update  What's in it for you
+      - description: >-
+          AplenaryopentoallTPAC2024attendeesreplacedtheregularW3CACMeetingTheplenarywillcoverW3Cbusinessandconsortiumupdates
+        link: https://www.w3.org/events/ac/2025/ac-tpac-2025-hybrid-meeting-2/
+        pubDate: Thu, 17 Jul 2025 12:00:00 +0000
+        title: AC at TPAC 2025 - Online meeting
+      - description: >-
+          IABW3Cworkshoptoexaminethetechnicalandarchitecturalimplicationsofimplementingagebasedrestrictionsononlinecontentaccess
+        link: >-
+          https://www.w3.org/events/workshops/2025/iab-w3c-workshop-on-age-based-restrictions-on-content-access/
+        pubDate: Tue, 15 Jul 2025 10:46:00 +0000
+        title: IAB/W3C Workshop on Age-Based Restrictions on Content Access
+      - description: >-
+          TheChineseWebIGandMiniAppsWGareorganizingtheWebEvolve2025AnnualEventon56SeptemberinHangzhouChina
+        link: https://www.w3.org/events/happenings/2025/webevolve-2025-annual-event/
+        pubDate: Thu, 03 Jul 2025 11:18:00 +0000
+        title: WebEvolve 2025 Annual Event
+      - description: >-
+          InapanelonempoweringthetechcommunityforanaccessiblefutureW3CsWAIProgramLeadShawnHenrytalksaboutdrivingchange
+        link: >-
+          https://www.w3.org/events/talks/2024/empowering-the-tech-community-for-an-accessible-future/
+        pubDate: Wed, 02 Jul 2025 17:50:00 +0000
+        title: Empowering the tech community for an accessible future
+      - description: >-
+          MorethanadecadeaftertheirreleaseasW3CrecommendationsRDFandSPARQLwillbeupdatedtoversion12Thetutorialexplainschanges
+        link: >-
+          https://www.w3.org/events/talks/2025/an-introduction-to-rdf-and-sparql-1-2/
+        pubDate: Fri, 27 Jun 2025 16:23:00 +0000
+        title: An Introduction to RDF and SPARQL 1.2
+      - description: >-
+          AtalkonhowtheW3CDigitalCredentialsAPIwillprovideWebbrowsersupporttomediatepresentationandissuanceofdigitalcredentials
+        link: >-
+          https://www.w3.org/events/talks/2025/what-would-it-take-for-global-acceptance-of-the-w3cs-digital-credentials-api/
+        pubDate: Wed, 25 Jun 2025 13:00:00 +0000
+        title: >-
+          What would it take for global acceptance of the W3Cs Digital
+          Credentials API?
+      - description: >-
+          ApracticalandcollaborativesessionincludingaseriousgametoexplorethethreatsandinitialprinciplesforDigitalWallets
+        link: https://www.w3.org/events/talks/2025/threat-model-for-digital-wallets/
+        pubDate: Wed, 25 Jun 2025 13:00:00 +0000
+        title: Threat Model for Digital Wallets
+      - description: >-
+          PierreAntoineChampinW3CDataStrategistwilldiscusstherecentlyreleasedfamilyofVerifiableCredentialsspecifications
+        link: >-
+          https://www.w3.org/events/talks/2025/whats-new-in-w3c-verifiable-credentials/
+        pubDate: Wed, 25 Jun 2025 11:00:00 +0000
+        title: What's new in W3C Verifiable Credentials?
+      - description: >-
+          Ourmajoreventoftheyeargathersourcommunityforthoughtprovokingdiscussionsandcoordinatedwork
+        link: https://www.w3.org/events/tpac/2026/tpac-2026/
+        pubDate: Tue, 10 Jun 2025 09:34:00 +0000
+        title: TPAC 2026
+      - description: AnexplorationofthepossibleimpactofAItechnologiesinwebmediascenarios
+        link: >-
+          https://www.w3.org/events/talks/2025/the-agentic-web-new-and-old-technologies-for-an-artificial-intelligent-future/
+        pubDate: Wed, 04 Jun 2025 17:00:00 +0000
+        title: >-
+          The agentic web, new and old technologies for an
+          artificial/intelligent future
+      - description: >-
+          W3CsXiaoqianWuholdsabreakoutsessiononwhatittakestobuildanewbrowserengine
+        link: >-
+          https://www.w3.org/events/happenings/2025/designing-a-new-web-engine-what-would-you-do-differently/
+        pubDate: Wed, 28 May 2025 09:52:00 +0000
+        title: Designing a New Web Engine  What Would You Do Differently?
+      - description: >-
+          W3CsMikeSmithholdsabreakoutsessionontipsandtricksofrunningtheWPTtestsuiteunderCI
+        link: >-
+          https://www.w3.org/events/happenings/2025/running-wpt-under-ci-problems-and-challenges-tips-and-tricks-and-lessons-learned/
+        pubDate: Wed, 28 May 2025 09:52:00 +0000
+        title: >-
+          Running WPT under CI: Problems and challenges, tips and tricks, and
+          lessons learned
+      - description: >-
+          W3CsSecurityLeadSimoneOnofriholdsabreakoutsessiononThreatModelfortheWebinthecontextofbrowsers
+        link: >-
+          https://www.w3.org/events/happenings/2025/web-platform-what-are-we-working-on/
+        pubDate: Wed, 28 May 2025 09:52:00 +0000
+        title: 'Web Platform: What are we working on?'
+      - description: >-
+          DiscussionabouttheshapingandfutureofdigitalaccessibilityinAfricaaswellasbestpracticesonstandardsdevelopment
+        link: >-
+          https://www.w3.org/events/talks/2025/roundtable-on-developing-africas-digital-accessibility-standard/
+        pubDate: Wed, 28 May 2025 09:19:00 +0000
+        title: Roundtable on Developing Africa's Digital Accessibility Standard
+      - description: >-
+          Hearglobalexpertsdiscussprogressmadeongoingchallengesandkeylessonslearntinimplementingdigitalaccessibilitymeasures
+        link: >-
+          https://www.w3.org/events/talks/2025/global-implementation-of-accessibility/
+        pubDate: Wed, 28 May 2025 09:19:00 +0000
+        title: Global Implementation of Accessibility
+      - description: >-
+          LearnaboutthreatmodelinginW3Cforstandardsdevelopersthroughcoreconceptssystemmappingthreatenumerationmitigationstrategies
+        link: https://www.w3.org/events/talks/2025/threat-modeling-w3c/
+        pubDate: Wed, 28 May 2025 09:09:00 +0000
+        title: 'Keynote by Simone Onofri, W3C Security Lead: Threat Modeling @ W3C'
+      - description: >-
+          apresentationbyFranoisDaoustattheWebW3CTrackofthe2025OpenHarmonyDeveloperConference
+        link: >-
+          https://www.w3.org/events/talks/2025/the-open-web-platform-the-ideal-companion-for-building-a-successful-os-ecosystem/
+        pubDate: Mon, 19 May 2025 14:59:00 +0000
+        title: >-
+          The open web platform, the ideal companion for building a successful
+          OS ecosystem
+      - description: >-
+          W3ChasbeeninvitedbyHuaweiapartnerofthe2025OpenHarmonyDeveloperConferencetoattendtheWebW3CTrack
+        link: https://www.w3.org/events/happenings/2025/openharmony-developer-2025/
+        pubDate: Wed, 14 May 2025 08:57:00 +0000
+        title: 2025 OpenHarmony Developer Conference
+      - description: >-
+          DaveRaggettW3CwilltalkaboutW3CdigitaltwinsforindustrialsystemsatOMGInformationDaystandardsforindustrialsystems
+        link: >-
+          https://www.w3.org/events/talks/2025/w3c-and-digital-twins-for-industrial-systems/
+        pubDate: Mon, 12 May 2025 10:42:00 +0000
+        title: W3C and digital twins for industrial systems
+      - description: aLightningtalkbySimoneOnofriatThreatModCon2025
+        link: >-
+          https://www.w3.org/events/talks/2025/threat-modeling-digital-credentials-what-could-go-wrong/
+        pubDate: Thu, 08 May 2025 17:00:00 +0000
+        title: 'Threat Modeling Digital Credentials: What Could Go Wrong?'
+      - description: >-
+          W3CisasponsorofGreenIONewYorkthatoffersactionableTechSustainabilityhandsonperspectivesfromscalingGreenITexperts
+        link: https://www.w3.org/events/conferences/2025/green-io-new-york/
+        pubDate: Tue, 06 May 2025 10:57:00 +0000
+        title: Green IO New York
+    x-api-evangelist-pulled: 2025-8-29
   - url: https://www.w3.org/blog/feed/
     name: Blog Feed
     type: BlogFeeds
+    data:
+      - author: Seth Dobbs, W3C CEO and President
+        description: >-
+          InthisblogpostW3CCEOSethDobbsreportsontheselectionof26recipientsinafundingprogramrelatedtoW3CsstakeholderstrategyandCommunityEngagementsupport
+        link: >-
+          https://www.w3.org/blog/2025/26-awardees-in-w3cs-tpac-inclusion-and-invited-expert-support-funds/
+        pubDate: Wed, 27 Aug 2025 10:29:00 +0000
+        title: 26 awardees in W3C's TPAC Inclusion and Invited Expert Support funds
+      - author: Seth Dobbs, W3C CEO and President
+        description: >-
+          InthisblogpostaboutthenewlypublishedW3CStatementVisionforW3CW3CCEOSethDobbsemphasizestheimportanceofprincipledrivenleadershipandhowvisiongivesclaritytomovetowardsmeaningfulgoals
+        link: >-
+          https://www.w3.org/blog/2025/vision-for-w3c-to-reach-durable-and-sustainable-success/
+        pubDate: Thu, 31 Jul 2025 06:59:00 +0000
+        title: Vision for W3C to reach durable and sustainable success
+      - author: >-
+          Coralie Mercier, W3C Marketing & Communications Director, Max Gendler,
+          W3C AB and chair of the Vision Task Force
+        description: >-
+          TodayW3CispleasedtoannouncethepublicationasaW3CStatementofVisionforW3CW3CStatementsprovideastablereferencefordocumentsnotintendedtobeformalstandardsbutthathavebeenformallyreviewedandareendorsedbyW3C
+        link: >-
+          https://www.w3.org/blog/2025/vision-for-w3c-a-manifesto-for-our-operations-and-decision-making/
+        pubDate: Tue, 29 Jul 2025 10:27:00 +0000
+        title: 'Vision for W3C: a manifesto for our operations and decision making'
+      - author: Simone Onofri, W3C Security Lead
+        description: >-
+          W3CrecentlypublishedspecificationswillbuildfoundationsfornewwaystorepresentidentityonthewebVerifiableCredentials20andthefirstdraftofDigitalCredentialsAPIenablethesecureseamlessexchangeofdigitalcredentialsonthewebemphasizingflexibilityemergingcryptographycompliancewithregulationandW3CprinciplesrelatedtoprivacyandsecurityAllofthesetopicswillbeontheagendaoftheGlobalDigitalCollaborationcoorganizedbyW3C
+        link: >-
+          https://www.w3.org/blog/2025/w3c-digital-credentials-api-publication-the-next-step-to-privacy-preserving-identities-on-the-web/
+        pubDate: Tue, 01 Jul 2025 06:29:00 +0000
+        title: >-
+          W3C Digital Credentials API publication: the next step to
+          privacy-preserving identities on the web
+      - author: Seth Dobbs, W3C CEO and President
+        description: >-
+          InthisblogpostW3CPresidentandCEOSethDobbsintroducestheinitiativesfor20252028thatwillsupportW3Csstrategicobjectives
+        link: >-
+          https://www.w3.org/blog/2025/public-release-of-w3cs-2025-2028-strategic-objectives-initiatives/
+        pubDate: Mon, 30 Jun 2025 21:30:00 +0000
+        title: Public release of W3Cs 2025-2028 strategic objectives initiatives
+      - author: Chris Wilson, W3C Board of Directors Development Committee Chair
+        description: >-
+          TheW3CBoardofDirectorshasopenseatsthatcanbeappointedbytheBoardofDirectorsitselffortwoyeartermsW3CisseekingcommunityinputtoidentifyBoardDirectorcandidateswithfinancialskillslegalacumenandfundraisingexperienceaswellaswithconnectionstootherSDOswhomightimprovethecollectiveskillsoftheexistingW3CBoardofDirectors
+        link: >-
+          https://www.w3.org/blog/2025/w3c-seeks-community-input-for-board-of-directors-appointments/
+        pubDate: Tue, 17 Jun 2025 13:47:00 +0000
+        title: W3C seeks community input for Board of Directors appointments
+      - author: Seth Dobbs, W3C CEO and President
+        description: >-
+          InthisblogpostW3CCEOSethDobbsexplainswhyandhowprivacyonthewebasarequirementforhumanityiscentraltoW3CsmissionmentionscurrentfocusonGlobalPrivacyControlGPCprivateadvertisingandtherecentW3CStatementonprivacyprinciples
+        link: >-
+          https://www.w3.org/blog/2025/privacy-on-the-web-creating-a-more-trustworthy-web/
+        pubDate: Wed, 28 May 2025 08:26:00 +0000
+        title: 'Privacy on the web: creating a more trustworthy web'
+      - author: Tara Whalen, W3C Privacy Lead
+        description: >-
+          ProtectinguserprivacyisfundamentaltocreatingawebthatworksforeveryoneLastweekW3CpublisheditsStatementonPrivacyPrincipleswhichprovidesdefinitionsforprivacyconceptsplusprivacyprinciplestoguidewebdevelopmentLearnmoreaboutthisguideandhowitcanhelpusalltocreateamoretrustworthywebforusersaroundtheworldbylevellingupprivacy
+        link: >-
+          https://www.w3.org/blog/2025/new-privacy-principles-for-a-more-trustworthy-web/
+        pubDate: Thu, 22 May 2025 09:58:00 +0000
+        title: New Privacy Principles for a more trustworthy web
+      - author: Shawn Henry
+        description: >-
+          ShawnHenrysharesherthoughtsaboutarecenttripaspartoftheEducationalandCulturalAffairsExchangePrograminHongKongonDigitalAccessibility
+        link: >-
+          https://www.w3.org/blog/2025/educational-and-cultural-exchange-on-digital-accessibility-highlights-from-hong-kong/
+        pubDate: Thu, 15 May 2025 08:30:00 +0000
+        title: >-
+          Educational and Cultural Exchange on Digital Accessibility  Highlights
+          from Hong Kong
+      - author: Susan Neuhaus, co-Chair of the Publishing Maintenance Working Group
+        description: >-
+          ThePublishingMaintenanceWorkingGroupPMWGhasfinalizedtheEPUB33specificationclarifyinglanguageandaligningitwithrelatedspecificationsThegroupisnowworkingonthenextmajorrevisionEPUB34ThisrevisionwillincludenewfeaturessuchasdarkmodesupportandstandardizedfootnoteendnotepracticesAdditionallynewtaskforcesareexploringdigitalcomicssupportandEPUBannotations
+        link: >-
+          https://www.w3.org/blog/2025/epub3-3-recommendations-published-work-begins-on-new-features/
+        pubDate: Wed, 23 Apr 2025 15:03:00 +0000
+        title: EPUB3.3 Recommendations published, work begins on new features
+      - author: >-
+          Heather Flanagan, co-chair of the Exploration Interest Group, Jet
+          Ding, co-chair of the Exploration Interest Group
+        description: >-
+          ThegoaloftheExplorationInterestGroupistoprovideaplatformtohelpW3CinvestigatingemergingtechnologytrendsanalyzingtheirimpactsontheevolutionofWebtechnologiesandproposingwaysforW3CtocollaborateshapingthetrendsforthebenefitoftheWebusers
+        link: >-
+          https://www.w3.org/blog/2025/join-the-w3c-exploration-interest-group-where-standards-start/
+        pubDate: Tue, 22 Apr 2025 10:23:00 +0000
+        title: 'Join the W3C Exploration Interest Group: where standards start'
+      - author: >-
+          Patrick Brosset, co-chair of the WebDX Community Group, Franois
+          Daoust, co-chair of the WebDX Community Group
+        description: >-
+          TheWebDXCommunityGrouphascompletedafirstnearlycompletecatalogofwebfeaturestargetedatwebdevelopersalongwithsupportdataacrossmainbrowsersThecatalogalreadypowersMDNCanIUseandisnowbeingintegratedintoolsandlibrariesFeedbackwelcome
+        link: >-
+          https://www.w3.org/blog/2025/first-catalog-of-web-features-completed-by-the-webdx-community-group/
+        pubDate: Thu, 13 Mar 2025 11:58:00 +0000
+        title: First catalog of web features completed by the WebDX Community Group
+      - author: Simone Onofri, W3C Security Lead, Daniel Appelquist, W3C SWAG CG Chair
+        description: >-
+          TheW3CSWAGSecurityWebApplicationGuidelinesCommunityGrouplaunchedinJune2024aimstosimplifysecurityfeaturesinwebappdevelopmentSWAGsmissionistoenhancewebappsecuritybycreatingbestpracticesfordevelopersandfosteringcollaborationAkeyoutputincludesvideosonconfiguringCSPandTrustedTypeswhichmitigateXSSBasedonGooglesadoptionexperiencetheseresourcesoffertoolstohelpdeveloperssecurelyconfiguretheseprotectionswithminimaleffort
+        link: >-
+          https://www.w3.org/blog/2025/how-to-protect-your-web-applications-from-xss/
+        pubDate: Thu, 06 Mar 2025 19:16:00 +0000
+        title: How to protect your Web applications from XSS
+      - author: Seth Dobbs, W3C CEO and President
+        description: >-
+          InthisblogpostW3CCEOSethDobbssharesimpressionsfromrepresentingW3CforthefirsttimeattheWorldEconomicForumandillustrateshowourdistinctivehumancentricfocusintheworldofStandardsDevelopmentOrganizationspositionsW3Ctobehelpingtoshapethefutureoftheweb
+        link: >-
+          https://www.w3.org/blog/2025/international-standards-and-world-economic-forum-wef/
+        pubDate: Mon, 24 Feb 2025 17:29:00 +0000
+        title: International standards and World Economic Forum (WEF)
+      - author: >-
+          Luca Casonato (Deno, WinterCG co-chair, Ecma TC55 co-chair), Mike
+          Smith (W3C staff, liaison to Ecma), Daniel Ehrenberg (Bloomberg, Ecma
+          President)
+        description: >-
+          TheW3CWebInteroperableRuntimesCommunityGroupWinterCGandEcmaInternationaltheorganizationwhichstandardizesECMAScriptalsoknownasJavaScripthavecollaboratedtocreateanewEcmaTechnicalCommitteeTC55WebinteroperableserverruntimesdubbedWinterTCforthedevelopmentofacommonwebalignedAPIsurfaceforserversideJavaScriptruntimeslikeNodejsDenoandCloudflareWorkers
+        link: >-
+          https://www.w3.org/blog/2025/collaborating-across-w3c-and-ecma-for-web-interoperable-server-runtimes-through-wintertc/
+        pubDate: Fri, 10 Jan 2025 15:27:00 +0000
+        title: >-
+          Collaborating across W3C and Ecma for web-interoperable server
+          runtimes through WinterTC
+      - author: Seth Dobbs, W3C CEO and President
+        description: >-
+          DiscovertheWorldWideWebConsortiums30thanniversaryyearanimatedholidaycardandreadaboutsomeofthehighlightsoftheyear2024inW3CsCEOSethDobbsblogpost
+        link: >-
+          https://www.w3.org/blog/2024/happy-holidays-from-the-world-wide-web-consortium/
+        pubDate: Wed, 18 Dec 2024 19:45:00 +0000
+        title: Happy holidays from the World Wide Web Consortium
+      - author: >-
+          Yves Lafon, W3C Team contact for the TAG, Coralie Mercier, Head of W3C
+          Communications
+        description: >-
+          W3CisseekingcommunityinputbetweenDecember17andJanuary5forappointmenttotheW3CTechnicalArchitectureGroupTAGtocomplementtheTAGelectionbyactivelyseekingcandidateappointeesinordertosupportadiverseandwellbalancedTAGincludingdiversityoftechnicalbackgroundknowledgeandskillsets
+        link: >-
+          https://www.w3.org/blog/2024/w3c-seeking-community-input-for-tag-appointment/
+        pubDate: Tue, 17 Dec 2024 00:00:00 +0000
+        title: W3C seeking community input for TAG appointment
+      - author: Daniel Appelquist, TAG co-chair
+        description: >-
+          TheEthicalWebPrinciplesareamanifestoofW3CscorevaluesandprinciplesInthispostW3CTechnicalArchitecturecochairDanAppelquistoutlineshowtogofromwordstoaction
+        link: >-
+          https://www.w3.org/blog/2024/ethical-web-principles-building-a-better-web/
+        pubDate: Mon, 16 Dec 2024 21:42:00 +0000
+        title: 'Ethical Web Principles: Building a better web'
+      - author: >-
+          Daniel Appelquist, TAG co-chair, Yves Lafon, W3C Team contact for the
+          TAG
+        description: >-
+          TheEthicalWebPrincipleswhichbuildonW3CscorevaluesandprinciplesinthewebanditsarchitectureareacalltoactionforthewebindustryandforW3CitselfaimingtodeliverpositivesocialoutcomesAsweexpandthewebplatformwemustconsidertheconsequencesofourworkAsmembersofthewebcommunityweeachplayapartinshapingitsfuture
+        link: >-
+          https://www.w3.org/blog/2024/w3c-statement-on-ethical-web-principles-guides-the-community-to-build-a-better-web/
+        pubDate: Thu, 12 Dec 2024 07:23:00 +0000
+        title: >-
+          W3C Statement on Ethical Web Principles guides the community to build
+          a better web
+      - author: Dave Raggett
+        description: >-
+          theworkshopwilldiscussSemanticinteroperabilitykeytoopenecosystemsontheWeb
+        link: >-
+          https://www.w3.org/blog/2024/semantic-interoperability-key-to-open-ecosystems-on-the-web/
+        pubDate: Thu, 14 Nov 2024 08:00:00 +0000
+        title: AIOTI Workshop on Semantic Interoperability for Digital Twins at ERCIM
+      - author: Tzviya Siegman
+        description: AnnouncementoftheformationoftheW3CSustainableWebInterestGroup
+        link: https://www.w3.org/blog/2024/sustainable-web-interest-group-is-formed/
+        pubDate: Mon, 04 Nov 2024 14:26:00 +0000
+        title: Sustainable Web Interest Group is formed
+      - author: Seth Dobbs
+        description: >-
+          InthisblogpostW3CCEOSethDobbsdescribesW3Cs30thanniversaryeventandshareshisimpressionsafterattendingforthefirsttimeaW3CTPACwhichattractsinaweekseveralhundredsfromtheW3Ccommunityinordertocoordinatesolutionstowebproblems
+        link: >-
+          https://www.w3.org/blog/2024/w3c-30th-anniversary-impressions-on-my-first-tpac/
+        pubDate: Wed, 23 Oct 2024 21:38:00 +0000
+        title: W3C 30th anniversary & impressions on my first TPAC
+      - author: Ian Jacobs, Franois Daoust
+        description: >-
+          InthispostthestaffwhoorganizeTPACbreakoutsessionssharethoughtsonthetopicscoveredthisyearandsomefeedbackreceivedsofar
+        link: https://www.w3.org/blog/2024/reflections-on-tpac-2024-breakouts/
+        pubDate: Wed, 16 Oct 2024 14:49:00 +0000
+        title: Reflections on TPAC 2024 Breakouts
+      - author: Coralie Mercier
+        description: >-
+          InthisblogpostW3CsHeadofMarketingandCommunicationsCoralieMerciersharesarecentfilmedinterviewforW3CMemberIgaliaonthehistoryoftheWebandreflectsontheimportanceofstandardsandhowtheyaredoneintheverylongrun
+        link: >-
+          https://www.w3.org/blog/2024/on-the-55th-world-standards-day-my-history-of-the-web-and-relationship-with-w3c/
+        pubDate: Mon, 14 Oct 2024 13:25:00 +0000
+        title: >-
+          On the 55th World Standards Day, my history of the Web and
+          relationship with W3C
+      - author: Shawn Lawton Henry
+        description: >-
+          AsW3Ccelebrates30yearswealsocelebratethesuccessoftheAccessibilityEducationandOutreachWorkingGroupEOWGsharenewsofitsclosureandlookforwardtoanewchapterinW3Caccessibilitywork
+        link: >-
+          https://www.w3.org/blog/2024/accessibility-education-and-outreach-another-milestone-in-w3cs-30-year-history-and-evolution/
+        pubDate: Thu, 19 Sep 2024 19:02:00 +0000
+        title: >-
+          Accessibility education and outreach: Another milestone in W3C's
+          30-year history and evolution
+    x-api-evangelist-pulled: 2025/8/29
   - url: https://www.w3.org/news/feed/
     name: News Feed
     type: BlogFeeds
+    data:
+      - description: >-
+          ThisspecificationdefinesawellknownURLwhichWebAuthnRelyingPartiesRPscanhosttomaketheircreationandmanagementendpointsdiscoverablebyWebAuthnclientsandauthenticators
+        link: >-
+          https://www.w3.org/news/2025/first-public-working-draft-a-well-known-url-for-relying-party-passkey-endpoints/
+        pubDate: Thu, 21 Aug 2025 07:14:00 +0000
+        title: >-
+          First Public Working Draft: A Well-Known URL for Relying Party Passkey
+          Endpoints
+      - description: >-
+          DeviceBoundSessionsCredentialsDBSCaimstopreventhijackingviacookietheftbybuildingaprotocolandinfrastructurethatallowsauseragenttoassertpossessionofasecurelystoredprivatekey
+        link: >-
+          https://www.w3.org/news/2025/first-public-working-draft-device-bound-session-credentials/
+        pubDate: Thu, 21 Aug 2025 07:12:00 +0000
+        title: 'First Public Working Draft: Device Bound Session Credentials'
+      - description: >-
+          ActRulesFormatdefinesaformatforwritingaccessibilitytestrulesthatcanbeusedfordevelopingautomatedtestingtoolsandmanualtestingmethodologies
+        link: >-
+          https://www.w3.org/news/2025/w3c-invites-implementations-of-accessibility-conformance-testing-act-rules-format-1-1/
+        pubDate: Tue, 19 Aug 2025 13:18:00 +0000
+        title: >-
+          W3C Invites Implementations of Accessibility Conformance Testing (ACT)
+          Rules Format 1.1
+      - description: >-
+          TheW3CMembershipapprovedthe2025W3CProcessDocumentwhichdocumentstheorganizationalstructureofW3CandprocessesresponsibilitiesandfunctionsthatenableW3Ctoaccomplishitsmission
+        link: https://www.w3.org/news/2025/w3c-updates-its-process-document/
+        pubDate: Mon, 18 Aug 2025 14:28:00 +0000
+        title: W3C updates its Process Document
+      - description: >-
+          Thisspecificationdefinesamethodtoincrementallytransferafontfromservertoclient
+        link: >-
+          https://www.w3.org/news/2025/w3c-invites-implementations-of-incremental-font-transfer/
+        pubDate: Thu, 31 Jul 2025 09:25:00 +0000
+        title: W3C invites implementations of Incremental Font Transfer
+      - description: >-
+          TheW3CAdvisoryBoardhaspublishedtodayasaW3CStatementthedocumentVisionforW3CwhicharticulatesW3CscorevisionfortheWeb
+        link: https://www.w3.org/news/2025/vision-for-w3c-is-a-w3c-statement/
+        pubDate: Tue, 29 Jul 2025 10:38:00 +0000
+        title: Vision for W3C is a W3C Statement
+      - description: >-
+          ThismodulecontainsthefeaturesofCSSrelatingtothebordersanddecorationsofboxesonthepage
+        link: >-
+          https://www.w3.org/news/2025/first-public-working-draft-css-borders-and-box-decorations-module-level-4/
+        pubDate: Tue, 22 Jul 2025 06:40:00 +0000
+        title: >-
+          First Public Working Draft: CSS Borders and Box Decorations Module
+          Level 4
+      - description: >-
+          Thisspecificationdefinesatextonlyprofileofttml2intendedforsubtitleandcaptiondeliveryapplicationsworldwide
+        link: >-
+          https://www.w3.org/news/2025/first-public-working-draft-imsc-text-profile-1-3/
+        pubDate: Tue, 22 Jul 2025 06:39:00 +0000
+        title: 'First Public Working Draft: IMSC Text Profile 1.3'
+      - description: >-
+          ThisprogramisforpeoplefromanunderrepresentedgroupandInvitedExpertswhowouldntbeabletoattendormeaningfullycontributetoTPACwithoutfinancialsupport
+        link: >-
+          https://www.w3.org/news/2025/w3c-opens-inclusion-fund-and-invited-expert-fund-for-tpac-2025/
+        pubDate: Thu, 17 Jul 2025 21:30:00 +0000
+        title: W3C opens Inclusion Fund and Invited Expert Fund for TPAC 2025
+      - description: >-
+          W3Creleasedthe2025diversityreportaspartofourcommitmentandcontinuedfocusondiversityandinclusionsince2018
+        link: https://www.w3.org/news/2025/diversity-report-2025/
+        pubDate: Thu, 17 Jul 2025 21:00:00 +0000
+        title: Diversity report 2025
+      - description: >-
+          TheInternetArchitectureBoardIABandWorldWideWebConsortiumW3Careconveningaworkshoptoexaminethetechnicalandarchitecturalimplicationsofdifferentapproachestoimplementingagebasedrestrictionsonaccesstoonlinecontent
+        link: >-
+          https://www.w3.org/news/2025/upcoming-iab-w3c-workshop-on-age-based-restrictions-on-content-access/
+        pubDate: Tue, 15 Jul 2025 15:37:00 +0000
+        title: 'Upcoming: IAB/W3C Workshop on Age-Based Restrictions on Content Access'
+      - description: >-
+          ThismoduledefinescoordinatebasedpositioningandoffsettingschemesofCSSrelativepositioningstickypositioningabsolutepositioningandfixedpositioning
+        link: >-
+          https://www.w3.org/news/2025/first-public-working-draft-css-positioned-layout-module-level-4/
+        pubDate: Tue, 08 Jul 2025 08:33:00 +0000
+        title: 'First Public Working Draft: CSS Positioned Layout Module Level 4'
+      - description: >-
+          ThisAPIenableswebsitestorequestcredentialsandforuserstoconsenttoreturncredentialsthattheycarryaroundindigitalwallets
+        link: >-
+          https://www.w3.org/news/2025/first-public-working-draft-digital-credentials/
+        pubDate: Tue, 01 Jul 2025 06:30:00 +0000
+        title: 'First Public Working Draft: Digital Credentials'
+      - description: TheThirdEditionaddsAnimatedPNGandHighDynamicRangeHDRPNG
+        link: >-
+          https://www.w3.org/news/2025/portable-network-graphics-png-specification-third-edition-is-now-a-w3c-recommendation/
+        pubDate: Tue, 24 Jun 2025 08:44:00 +0000
+        title: >-
+          Portable Network Graphics (PNG) Specification (Third Edition) is now a
+          W3C Recommendation
+      - description: UserstoriesandusecasesfortheLinkedWebStorageLWSspec
+        link: >-
+          https://www.w3.org/news/2025/draft-group-note-linked-web-storage-use-cases/
+        pubDate: Tue, 24 Jun 2025 08:30:00 +0000
+        title: 'Draft Group Note: Linked Web Storage Use Cases'
+      - description: >-
+          ThisspecificationdefinesacoresubsetofMathematicalMarkupLanguageorMathMLthatissuitableforbrowserimplementation
+        link: >-
+          https://www.w3.org/news/2025/w3c-invites-implementations-of-mathml-core/
+        pubDate: Tue, 24 Jun 2025 08:28:00 +0000
+        title: W3C invites implementations of MathML Core
+      - description: >-
+          TheAccessibleRichInternetApplicationsARIAWorkingGrouphaspublishedDigitalPublishingWAIARIAModule11DPUBARIAandDigitalPublishingAccessibilityAPIMappings11DPUBAAMasW3CRecommendations
+        link: >-
+          https://www.w3.org/news/2025/dpub-aria-and-dpub-aam-are-now-w3c-recommendations/
+        pubDate: Thu, 12 Jun 2025 03:07:00 +0000
+        title: DPUB-ARIA and DPUB-AAM are now W3C Recommendations
+      - description: >-
+          W3CopenstodayanewsessionofitsCSSBasicscourseonW3CxwhereyoucanlearnhowtotakeyourwebpagesfromblandtoboldwiththepowerofCSSstyling
+        link: >-
+          https://www.w3.org/news/2025/new-session-of-the-w3cx-course-on-css-basics/
+        pubDate: Tue, 10 Jun 2025 11:22:00 +0000
+        title: New session of the W3Cx course on CSS Basics
+      - description: >-
+          TheW3CAdvisoryCommitteehaselectedsevenindividualstotheW3CAdvisoryBoardAB
+        link: >-
+          https://www.w3.org/news/2025/w3c-advisory-committee-elects-advisory-board/
+        pubDate: Tue, 03 Jun 2025 13:34:00 +0000
+        title: W3C Advisory Committee Elects Advisory Board
+      - description: >-
+          Thisdocumentprovidesdefinitionsforprivacyandrelatedconceptsthatareapplicableworldwideaswellasasetofprivacyprinciplesthatshouldguidethedevelopmentofthewebasatrustworthyplatform
+        link: https://www.w3.org/news/2025/privacy-principles-is-a-w3c-statement/
+        pubDate: Thu, 15 May 2025 14:06:00 +0000
+        title: Privacy Principles is a W3C Statement
+      - description: >-
+          Thismoduledefinestheabilityforauthorstodefinecustomfunctionsactingsimilartoparametrizedcustomproperties
+        link: >-
+          https://www.w3.org/news/2025/first-public-working-draft-css-functions-and-mixins-module/
+        pubDate: Thu, 15 May 2025 13:37:00 +0000
+        title: 'First Public Working Draft: CSS Functions and Mixins Module'
+      - description: >-
+          ThisdocumentdescribesPNGPortableNetworkGraphicsanextensiblefileformatforthelosslessportablewellcompressedstorageofstaticandanimatedrasterimages
+        link: >-
+          https://www.w3.org/news/2025/portable-network-graphics-png-specification-third-edition-is-a-w3c-proposed-recommendation/
+        pubDate: Thu, 15 May 2025 13:30:00 +0000
+        title: >-
+          Portable Network Graphics (PNG) Specification (Third Edition) is a W3C
+          Proposed Recommendation
+      - description: >-
+          TheVerifiableCredentialsWorkingGrouphaspublishedsevenW3CRecommendationsVerifiableCredentialsDataModelv20VerifiableCredentialDataIntegrity10DataIntegrityEdDSACryptosuitesv10DataIntegrityECDSACryptosuitesv10SecuringVerifiableCredentialsusingJOSEandCOSEControlledIdentifiersv10andBitstringStatusListv10
+        link: >-
+          https://www.w3.org/news/2025/the-verifiable-credentials-2-0-family-of-specifications-is-now-a-w3c-recommendation/
+        pubDate: Thu, 15 May 2025 13:10:00 +0000
+        title: >-
+          The Verifiable Credentials 2.0 family of specifications is now a W3C
+          Recommendation
+      - description: >-
+          ThedocumentcapturestechnicalrequirementsforaprofileofTTML2foruseinworkflowsrelatedtodubbingandaudiodescriptionofmoviesandvideosknownastheDubbingandAudiodescriptionProfileofTTML2DAPT
+        link: https://www.w3.org/news/2025/group-note-dapt-requirements/
+        pubDate: Thu, 08 May 2025 04:36:00 +0000
+        title: 'Group Note: DAPT Requirements'
+      - description: >-
+          TheAccessibilityGuidelinesWorkingGrouppublishedanupdatethataddressesminortechnicalissuesintheDecember2024publicationofWCAG21
+        link: >-
+          https://www.w3.org/news/2025/web-content-accessibility-guidelines-wcag-2-1-updated/
+        pubDate: Tue, 06 May 2025 14:28:00 +0000
+        title: Web Content Accessibility Guidelines (WCAG) 2.1 Updated
+    x-api-evangelist-pulled: 2025/8/29
 created: '2025-08-25'
 modified: '2025-08-29'
 position: Consumer
