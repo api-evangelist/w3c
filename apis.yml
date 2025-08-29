@@ -30,11 +30,9 @@ common:
   - url: https://www.w3.org/news/
     name: News
     type: News
-    description: 'null'
   - url: https://www.w3.org/press-releases/
     name: Press Releases
     type: PressReleases
-    description: 'null'
   - url: https://www.w3.org/blog/
     name: Blog
     type: Blog
