@@ -219,6 +219,7 @@ common:
         link: https://www.w3.org/events/conferences/2025/green-io-new-york/
         pubDate: Tue, 06 May 2025 10:57:00 +0000
         title: Green IO New York
+    x-api-evangelist-pulled: 2025-8-29
   - url: https://www.w3.org/blog/feed/
     name: Blog Feed
     type: BlogFeeds
