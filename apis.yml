@@ -423,6 +423,162 @@ common:
   - url: https://www.w3.org/news/feed/
     name: News Feed
     type: BlogFeeds
+    data:
+      - description: >-
+          ThisspecificationdefinesawellknownURLwhichWebAuthnRelyingPartiesRPscanhosttomaketheircreationandmanagementendpointsdiscoverablebyWebAuthnclientsandauthenticators
+        link: >-
+          https://www.w3.org/news/2025/first-public-working-draft-a-well-known-url-for-relying-party-passkey-endpoints/
+        pubDate: Thu, 21 Aug 2025 07:14:00 +0000
+        title: >-
+          First Public Working Draft: A Well-Known URL for Relying Party Passkey
+          Endpoints
+      - description: >-
+          DeviceBoundSessionsCredentialsDBSCaimstopreventhijackingviacookietheftbybuildingaprotocolandinfrastructurethatallowsauseragenttoassertpossessionofasecurelystoredprivatekey
+        link: >-
+          https://www.w3.org/news/2025/first-public-working-draft-device-bound-session-credentials/
+        pubDate: Thu, 21 Aug 2025 07:12:00 +0000
+        title: 'First Public Working Draft: Device Bound Session Credentials'
+      - description: >-
+          ActRulesFormatdefinesaformatforwritingaccessibilitytestrulesthatcanbeusedfordevelopingautomatedtestingtoolsandmanualtestingmethodologies
+        link: >-
+          https://www.w3.org/news/2025/w3c-invites-implementations-of-accessibility-conformance-testing-act-rules-format-1-1/
+        pubDate: Tue, 19 Aug 2025 13:18:00 +0000
+        title: >-
+          W3C Invites Implementations of Accessibility Conformance Testing (ACT)
+          Rules Format 1.1
+      - description: >-
+          TheW3CMembershipapprovedthe2025W3CProcessDocumentwhichdocumentstheorganizationalstructureofW3CandprocessesresponsibilitiesandfunctionsthatenableW3Ctoaccomplishitsmission
+        link: https://www.w3.org/news/2025/w3c-updates-its-process-document/
+        pubDate: Mon, 18 Aug 2025 14:28:00 +0000
+        title: W3C updates its Process Document
+      - description: >-
+          Thisspecificationdefinesamethodtoincrementallytransferafontfromservertoclient
+        link: >-
+          https://www.w3.org/news/2025/w3c-invites-implementations-of-incremental-font-transfer/
+        pubDate: Thu, 31 Jul 2025 09:25:00 +0000
+        title: W3C invites implementations of Incremental Font Transfer
+      - description: >-
+          TheW3CAdvisoryBoardhaspublishedtodayasaW3CStatementthedocumentVisionforW3CwhicharticulatesW3CscorevisionfortheWeb
+        link: https://www.w3.org/news/2025/vision-for-w3c-is-a-w3c-statement/
+        pubDate: Tue, 29 Jul 2025 10:38:00 +0000
+        title: Vision for W3C is a W3C Statement
+      - description: >-
+          ThismodulecontainsthefeaturesofCSSrelatingtothebordersanddecorationsofboxesonthepage
+        link: >-
+          https://www.w3.org/news/2025/first-public-working-draft-css-borders-and-box-decorations-module-level-4/
+        pubDate: Tue, 22 Jul 2025 06:40:00 +0000
+        title: >-
+          First Public Working Draft: CSS Borders and Box Decorations Module
+          Level 4
+      - description: >-
+          Thisspecificationdefinesatextonlyprofileofttml2intendedforsubtitleandcaptiondeliveryapplicationsworldwide
+        link: >-
+          https://www.w3.org/news/2025/first-public-working-draft-imsc-text-profile-1-3/
+        pubDate: Tue, 22 Jul 2025 06:39:00 +0000
+        title: 'First Public Working Draft: IMSC Text Profile 1.3'
+      - description: >-
+          ThisprogramisforpeoplefromanunderrepresentedgroupandInvitedExpertswhowouldntbeabletoattendormeaningfullycontributetoTPACwithoutfinancialsupport
+        link: >-
+          https://www.w3.org/news/2025/w3c-opens-inclusion-fund-and-invited-expert-fund-for-tpac-2025/
+        pubDate: Thu, 17 Jul 2025 21:30:00 +0000
+        title: W3C opens Inclusion Fund and Invited Expert Fund for TPAC 2025
+      - description: >-
+          W3Creleasedthe2025diversityreportaspartofourcommitmentandcontinuedfocusondiversityandinclusionsince2018
+        link: https://www.w3.org/news/2025/diversity-report-2025/
+        pubDate: Thu, 17 Jul 2025 21:00:00 +0000
+        title: Diversity report 2025
+      - description: >-
+          TheInternetArchitectureBoardIABandWorldWideWebConsortiumW3Careconveningaworkshoptoexaminethetechnicalandarchitecturalimplicationsofdifferentapproachestoimplementingagebasedrestrictionsonaccesstoonlinecontent
+        link: >-
+          https://www.w3.org/news/2025/upcoming-iab-w3c-workshop-on-age-based-restrictions-on-content-access/
+        pubDate: Tue, 15 Jul 2025 15:37:00 +0000
+        title: 'Upcoming: IAB/W3C Workshop on Age-Based Restrictions on Content Access'
+      - description: >-
+          ThismoduledefinescoordinatebasedpositioningandoffsettingschemesofCSSrelativepositioningstickypositioningabsolutepositioningandfixedpositioning
+        link: >-
+          https://www.w3.org/news/2025/first-public-working-draft-css-positioned-layout-module-level-4/
+        pubDate: Tue, 08 Jul 2025 08:33:00 +0000
+        title: 'First Public Working Draft: CSS Positioned Layout Module Level 4'
+      - description: >-
+          ThisAPIenableswebsitestorequestcredentialsandforuserstoconsenttoreturncredentialsthattheycarryaroundindigitalwallets
+        link: >-
+          https://www.w3.org/news/2025/first-public-working-draft-digital-credentials/
+        pubDate: Tue, 01 Jul 2025 06:30:00 +0000
+        title: 'First Public Working Draft: Digital Credentials'
+      - description: TheThirdEditionaddsAnimatedPNGandHighDynamicRangeHDRPNG
+        link: >-
+          https://www.w3.org/news/2025/portable-network-graphics-png-specification-third-edition-is-now-a-w3c-recommendation/
+        pubDate: Tue, 24 Jun 2025 08:44:00 +0000
+        title: >-
+          Portable Network Graphics (PNG) Specification (Third Edition) is now a
+          W3C Recommendation
+      - description: UserstoriesandusecasesfortheLinkedWebStorageLWSspec
+        link: >-
+          https://www.w3.org/news/2025/draft-group-note-linked-web-storage-use-cases/
+        pubDate: Tue, 24 Jun 2025 08:30:00 +0000
+        title: 'Draft Group Note: Linked Web Storage Use Cases'
+      - description: >-
+          ThisspecificationdefinesacoresubsetofMathematicalMarkupLanguageorMathMLthatissuitableforbrowserimplementation
+        link: >-
+          https://www.w3.org/news/2025/w3c-invites-implementations-of-mathml-core/
+        pubDate: Tue, 24 Jun 2025 08:28:00 +0000
+        title: W3C invites implementations of MathML Core
+      - description: >-
+          TheAccessibleRichInternetApplicationsARIAWorkingGrouphaspublishedDigitalPublishingWAIARIAModule11DPUBARIAandDigitalPublishingAccessibilityAPIMappings11DPUBAAMasW3CRecommendations
+        link: >-
+          https://www.w3.org/news/2025/dpub-aria-and-dpub-aam-are-now-w3c-recommendations/
+        pubDate: Thu, 12 Jun 2025 03:07:00 +0000
+        title: DPUB-ARIA and DPUB-AAM are now W3C Recommendations
+      - description: >-
+          W3CopenstodayanewsessionofitsCSSBasicscourseonW3CxwhereyoucanlearnhowtotakeyourwebpagesfromblandtoboldwiththepowerofCSSstyling
+        link: >-
+          https://www.w3.org/news/2025/new-session-of-the-w3cx-course-on-css-basics/
+        pubDate: Tue, 10 Jun 2025 11:22:00 +0000
+        title: New session of the W3Cx course on CSS Basics
+      - description: >-
+          TheW3CAdvisoryCommitteehaselectedsevenindividualstotheW3CAdvisoryBoardAB
+        link: >-
+          https://www.w3.org/news/2025/w3c-advisory-committee-elects-advisory-board/
+        pubDate: Tue, 03 Jun 2025 13:34:00 +0000
+        title: W3C Advisory Committee Elects Advisory Board
+      - description: >-
+          Thisdocumentprovidesdefinitionsforprivacyandrelatedconceptsthatareapplicableworldwideaswellasasetofprivacyprinciplesthatshouldguidethedevelopmentofthewebasatrustworthyplatform
+        link: https://www.w3.org/news/2025/privacy-principles-is-a-w3c-statement/
+        pubDate: Thu, 15 May 2025 14:06:00 +0000
+        title: Privacy Principles is a W3C Statement
+      - description: >-
+          Thismoduledefinestheabilityforauthorstodefinecustomfunctionsactingsimilartoparametrizedcustomproperties
+        link: >-
+          https://www.w3.org/news/2025/first-public-working-draft-css-functions-and-mixins-module/
+        pubDate: Thu, 15 May 2025 13:37:00 +0000
+        title: 'First Public Working Draft: CSS Functions and Mixins Module'
+      - description: >-
+          ThisdocumentdescribesPNGPortableNetworkGraphicsanextensiblefileformatforthelosslessportablewellcompressedstorageofstaticandanimatedrasterimages
+        link: >-
+          https://www.w3.org/news/2025/portable-network-graphics-png-specification-third-edition-is-a-w3c-proposed-recommendation/
+        pubDate: Thu, 15 May 2025 13:30:00 +0000
+        title: >-
+          Portable Network Graphics (PNG) Specification (Third Edition) is a W3C
+          Proposed Recommendation
+      - description: >-
+          TheVerifiableCredentialsWorkingGrouphaspublishedsevenW3CRecommendationsVerifiableCredentialsDataModelv20VerifiableCredentialDataIntegrity10DataIntegrityEdDSACryptosuitesv10DataIntegrityECDSACryptosuitesv10SecuringVerifiableCredentialsusingJOSEandCOSEControlledIdentifiersv10andBitstringStatusListv10
+        link: >-
+          https://www.w3.org/news/2025/the-verifiable-credentials-2-0-family-of-specifications-is-now-a-w3c-recommendation/
+        pubDate: Thu, 15 May 2025 13:10:00 +0000
+        title: >-
+          The Verifiable Credentials 2.0 family of specifications is now a W3C
+          Recommendation
+      - description: >-
+          ThedocumentcapturestechnicalrequirementsforaprofileofTTML2foruseinworkflowsrelatedtodubbingandaudiodescriptionofmoviesandvideosknownastheDubbingandAudiodescriptionProfileofTTML2DAPT
+        link: https://www.w3.org/news/2025/group-note-dapt-requirements/
+        pubDate: Thu, 08 May 2025 04:36:00 +0000
+        title: 'Group Note: DAPT Requirements'
+      - description: >-
+          TheAccessibilityGuidelinesWorkingGrouppublishedanupdatethataddressesminortechnicalissuesintheDecember2024publicationofWCAG21
+        link: >-
+          https://www.w3.org/news/2025/web-content-accessibility-guidelines-wcag-2-1-updated/
+        pubDate: Tue, 06 May 2025 14:28:00 +0000
+        title: Web Content Accessibility Guidelines (WCAG) 2.1 Updated
 created: '2025-08-25'
 modified: '2025-08-28'
 position: Consumer
