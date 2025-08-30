@@ -16,7 +16,7 @@ The World Wide Web Consortium (W3C) develops standards and guidelines to help ev
 ## Timestamps
 
 - **Created:** 2025-08-25 
-- **Modified:** 2025-08-25 
+- **Modified:** 2025-08-29 
 
 ## APIs
 
@@ -33,6 +33,7 @@ The World Wide Web Consortium (W3C) develops standards and guidelines to help ev
 #### Properties
 
 - [Documentation]( https://www.w3.org/)
+- [OpenAPI](properties/w3c-openapi.yml)
 
 ## Common Properties
 
@@ -48,6 +49,9 @@ The World Wide Web Consortium (W3C) develops standards and guidelines to help ev
 - [Events](https://www.w3.org/events/)
 - [Mastodon](https://w3c.social/@w3c)
 - [GitHubOrganization](https://github.com/w3c/)
+- [BlogFeeds](https://www.w3.org/events/feed/)
+- [BlogFeeds](https://www.w3.org/blog/feed/)
+- [BlogFeeds](https://www.w3.org/news/feed/)
 
 ## Maintainers
 
