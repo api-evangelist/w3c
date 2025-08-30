@@ -72,6 +72,291 @@ common:
   - url: https://www.w3.org/blog/feed/
     name: Blog Feed
     type: BlogFeeds
+    data:
+      - author: Seth Dobbs, W3C CEO and President
+        description: >-
+          In this blog post, W3C CEO Seth Dobbs reports on the selection of 26
+          recipients in a funding program related to W3C's stakeholder strategy
+          and Community Engagement support.
+        link: >-
+          https://www.w3.org/blog/2025/26-awardees-in-w3cs-tpac-inclusion-and-invited-expert-support-funds/
+        pubDate: Wed, 27 Aug 2025 10:29:00 +0000
+        title: 26 awardees in W3C's TPAC Inclusion and Invited Expert Support funds
+      - author: Seth Dobbs, W3C CEO and President
+        description: >-
+          In this blog post about the newly published W3C Statement Vision for
+          W3C, W3C CEO Seth Dobbs emphasizes the importance of principledriven
+          leadership and how vision gives clarity to move towards meaningful
+          goals.
+        link: >-
+          https://www.w3.org/blog/2025/vision-for-w3c-to-reach-durable-and-sustainable-success/
+        pubDate: Thu, 31 Jul 2025 06:59:00 +0000
+        title: Vision for W3C to reach durable and sustainable success
+      - author: >-
+          Coralie Mercier, W3C Marketing & Communications Director, Max Gendler,
+          W3C AB and chair of the Vision Task Force
+        description: >-
+          Today, W3C is pleased to announce the publication as a W3C Statement
+          of Vision for W3C. W3C Statements provide a stable reference for
+          documents not intended to be formal standards but that have been
+          formally reviewed and are endorsed by W3C.
+        link: >-
+          https://www.w3.org/blog/2025/vision-for-w3c-a-manifesto-for-our-operations-and-decision-making/
+        pubDate: Tue, 29 Jul 2025 10:27:00 +0000
+        title: 'Vision for W3C: a manifesto for our operations and decision making'
+      - author: Simone Onofri, W3C Security Lead
+        description: >-
+          W3C recently published specifications will build foundations for new
+          ways to represent identity on the web. Verifiable Credentials 2.0 and
+          the first draft of Digital Credentials API enable the secure, seamless
+          exchange of digital credentials on the web, emphasizing flexibility,
+          emerging cryptography, compliance with regulation, and W3C principles
+          related to privacy and security. All of these topics will be on the
+          agenda of the Global Digital Collaboration, coorganized by W3C.
+        link: >-
+          https://www.w3.org/blog/2025/w3c-digital-credentials-api-publication-the-next-step-to-privacy-preserving-identities-on-the-web/
+        pubDate: Tue, 01 Jul 2025 06:29:00 +0000
+        title: >-
+          W3C Digital Credentials API publication: the next step to
+          privacy-preserving identities on the web
+      - author: Seth Dobbs, W3C CEO and President
+        description: >-
+          In this blog post, W3C President and CEO Seth Dobbs introduces the
+          initiatives for 20252028 that will support W3Cs strategic objectives.
+        link: >-
+          https://www.w3.org/blog/2025/public-release-of-w3cs-2025-2028-strategic-objectives-initiatives/
+        pubDate: Mon, 30 Jun 2025 21:30:00 +0000
+        title: Public release of W3C’s 2025-2028 strategic objectives initiatives
+      - author: Chris Wilson, W3C Board of Directors Development Committee Chair
+        description: >-
+          The W3C Board of Directors has open seats that can be appointed by the
+          Board of Directors itself for twoyear terms. W3C is seeking community
+          input to identify Board Director candidates with financial skills,
+          legal acumen, and fundraising experience, as well as with connections
+          to other SDOs, who might improve the collective skills of the existing
+          W3C Board of Directors.
+        link: >-
+          https://www.w3.org/blog/2025/w3c-seeks-community-input-for-board-of-directors-appointments/
+        pubDate: Tue, 17 Jun 2025 13:47:00 +0000
+        title: W3C seeks community input for Board of Directors appointments
+      - author: Seth Dobbs, W3C CEO and President
+        description: >-
+          In this blog post, W3C CEO Seth Dobbs explains why and how privacy on
+          the web as a requirement for humanity is central to W3Cs mission,
+          mentions current focus on Global Privacy Control (GPC), private
+          advertising, and the recent W3C Statement on privacy principles.
+        link: >-
+          https://www.w3.org/blog/2025/privacy-on-the-web-creating-a-more-trustworthy-web/
+        pubDate: Wed, 28 May 2025 08:26:00 +0000
+        title: 'Privacy on the web: creating a more trustworthy web'
+      - author: Tara Whalen, W3C Privacy Lead
+        description: >-
+          Protecting user privacy is fundamental to creating a web that works
+          for everyone. Last week, W3C published its Statement on Privacy
+          Principles, which provides definitions for privacy concepts plus
+          privacy principles to guide web development. Learn more about this
+          guide and how it can help us all to create a more trustworthy web for
+          users around the world by levelling up privacy.
+        link: >-
+          https://www.w3.org/blog/2025/new-privacy-principles-for-a-more-trustworthy-web/
+        pubDate: Thu, 22 May 2025 09:58:00 +0000
+        title: New Privacy Principles for a more trustworthy web
+      - author: Shawn Henry
+        description: >-
+          Shawn Henry shares her thoughts about a recent trip as part of the
+          Educational and Cultural Affairs Exchange Program in Hong Kong on
+          Digital Accessibility
+        link: >-
+          https://www.w3.org/blog/2025/educational-and-cultural-exchange-on-digital-accessibility-highlights-from-hong-kong/
+        pubDate: Thu, 15 May 2025 08:30:00 +0000
+        title: >-
+          Educational and Cultural Exchange on Digital Accessibility —
+          Highlights from Hong Kong
+      - author: Susan Neuhaus, co-Chair of the Publishing Maintenance Working Group
+        description: >-
+          The Publishing Maintenance Working Group (PMWG) has finalized the EPUB
+          3.3 specification, clarifying language and aligning it with related
+          specifications. The group is now working on the next major revision,
+          EPUB 3.4. This revision will include new features such as dark mode
+          support and standardized footnoteendnote practices. Additionally, new
+          task forces are exploring digital comics support and EPUB annotations.
+        link: >-
+          https://www.w3.org/blog/2025/epub3-3-recommendations-published-work-begins-on-new-features/
+        pubDate: Wed, 23 Apr 2025 15:03:00 +0000
+        title: EPUB3.3 Recommendations published, work begins on new features
+      - author: >-
+          Heather Flanagan, co-chair of the Exploration Interest Group, Jet
+          Ding, co-chair of the Exploration Interest Group
+        description: >-
+          The goal of the Exploration Interest Group is to provide a platform to
+          help W3C investigating emerging technology trends, analyzing their
+          impacts on the evolution of Web technologies, and proposing ways for
+          W3C to collaborate shaping the trends for the benefit of the Web
+          users.
+        link: >-
+          https://www.w3.org/blog/2025/join-the-w3c-exploration-interest-group-where-standards-start/
+        pubDate: Tue, 22 Apr 2025 10:23:00 +0000
+        title: 'Join the W3C Exploration Interest Group: where standards start'
+      - author: >-
+          Patrick Brosset, co-chair of the WebDX Community Group, François
+          Daoust, co-chair of the WebDX Community Group
+        description: >-
+          The WebDX Community Group has completed a first nearly complete
+          catalog of web features targeted at web developers, along with support
+          data across main browsers. The catalog already powers MDN, Can I Use,
+          and is now being integrated in tools and libraries. Feedback welcome!
+        link: >-
+          https://www.w3.org/blog/2025/first-catalog-of-web-features-completed-by-the-webdx-community-group/
+        pubDate: Thu, 13 Mar 2025 11:58:00 +0000
+        title: First catalog of web features completed by the WebDX Community Group
+      - author: Simone Onofri, W3C Security Lead, Daniel Appelquist, W3C SWAG CG Chair
+        description: >-
+          The W3C SWAG (Security Web Application Guidelines) Community Group,
+          launched in June 2024, aims to simplify security features in web app
+          development. SWAG's mission is to enhance web app security by creating
+          best practices for developers and fostering collaboration. A key
+          output includes videos on configuring CSP and Trusted Types, which
+          mitigate XSS. Based on Googles adoption experience, these resources
+          offer tools to help developers securely configure these protections
+          with minimal effort.
+        link: >-
+          https://www.w3.org/blog/2025/how-to-protect-your-web-applications-from-xss/
+        pubDate: Thu, 06 Mar 2025 19:16:00 +0000
+        title: How to protect your Web applications from XSS
+      - author: Seth Dobbs, W3C CEO and President
+        description: >-
+          In this blog post, W3C CEO Seth Dobbs shares impressions from
+          representing W3C for the first time at the World Economic Forum, and
+          illustrates how our distinctive humancentric focus in the world of
+          Standards Development Organizations positions W3C to be helping to
+          shape the future of the web.
+        link: >-
+          https://www.w3.org/blog/2025/international-standards-and-world-economic-forum-wef/
+        pubDate: Mon, 24 Feb 2025 17:29:00 +0000
+        title: International standards and World Economic Forum (WEF)
+      - author: >-
+          Luca Casonato (Deno, WinterCG co-chair, Ecma TC55 co-chair), Mike
+          Smith (W3C staff, liaison to Ecma), Daniel Ehrenberg (Bloomberg, Ecma
+          President)
+        description: >-
+          The W3C Web Interoperable Runtimes Community Group ("WinterCG") and
+          Ecma International (the organization which standardizes ECMAScript,
+          also known as JavaScript) have collaborated to create a new Ecma
+          Technical Committee,TC55  Webinteroperable server runtimes, dubbed
+          "WinterTC", for the development of a common webaligned API surface for
+          serverside JavaScript runtimes like Node.js, Deno and Cloudflare
+          Workers.
+        link: >-
+          https://www.w3.org/blog/2025/collaborating-across-w3c-and-ecma-for-web-interoperable-server-runtimes-through-wintertc/
+        pubDate: Fri, 10 Jan 2025 15:27:00 +0000
+        title: >-
+          Collaborating across W3C and Ecma for web-interoperable server
+          runtimes through WinterTC
+      - author: Seth Dobbs, W3C CEO and President
+        description: >-
+          Discover the World Wide Web Consortiums 30th anniversary year animated
+          holiday card and read about some of the highlights of the year 2024 in
+          W3Cs CEO Seth Dobbs blog post.
+        link: >-
+          https://www.w3.org/blog/2024/happy-holidays-from-the-world-wide-web-consortium/
+        pubDate: Wed, 18 Dec 2024 19:45:00 +0000
+        title: Happy holidays from the World Wide Web Consortium
+      - author: >-
+          Yves Lafon, W3C Team contact for the TAG, Coralie Mercier, Head of W3C
+          Communications
+        description: >-
+          W3C is seeking community input between December 17 and January 5 for
+          appointment to the W3C Technical Architecture Group (TAG), to
+          complement the TAG election by actively seeking candidate appointees
+          in order to support a diverse and wellbalanced TAG, including
+          diversity of technical background, knowledge, and skill sets.
+        link: >-
+          https://www.w3.org/blog/2024/w3c-seeking-community-input-for-tag-appointment/
+        pubDate: Tue, 17 Dec 2024 00:00:00 +0000
+        title: W3C seeking community input for TAG appointment
+      - author: Daniel Appelquist, TAG co-chair
+        description: >-
+          The Ethical Web Principles are a manifesto of W3Cs core values and
+          principles. In this post, W3C Technical Architecture cochair Dan
+          Appelquist outlines how to go from words to action.
+        link: >-
+          https://www.w3.org/blog/2024/ethical-web-principles-building-a-better-web/
+        pubDate: Mon, 16 Dec 2024 21:42:00 +0000
+        title: 'Ethical Web Principles: Building a better web'
+      - author: >-
+          Daniel Appelquist, TAG co-chair, Yves Lafon, W3C Team contact for the
+          TAG
+        description: >-
+          The Ethical Web Principles, which build on W3Cs core values and
+          principles in the web and its architecture, are a call to action for
+          the web industry and for W3C itself, aiming to deliver positive social
+          outcomes. As we expand the web platform, we must consider the
+          consequences of our work. As members of the web community, we each
+          play a part in shaping its future.
+        link: >-
+          https://www.w3.org/blog/2024/w3c-statement-on-ethical-web-principles-guides-the-community-to-build-a-better-web/
+        pubDate: Thu, 12 Dec 2024 07:23:00 +0000
+        title: >-
+          W3C Statement on Ethical Web Principles guides the community to build
+          a better web
+      - author: Dave Raggett
+        description: >-
+          the workshop will discuss Semantic interoperability  key to open
+          ecosystems on the Web
+        link: >-
+          https://www.w3.org/blog/2024/semantic-interoperability-key-to-open-ecosystems-on-the-web/
+        pubDate: Thu, 14 Nov 2024 08:00:00 +0000
+        title: AIOTI Workshop on Semantic Interoperability for Digital Twins at ERCIM
+      - author: Tzviya Siegman
+        description: >-
+          Announcement of the formation of the W3C Sustainable Web Interest
+          Group.
+        link: https://www.w3.org/blog/2024/sustainable-web-interest-group-is-formed/
+        pubDate: Mon, 04 Nov 2024 14:26:00 +0000
+        title: Sustainable Web Interest Group is formed
+      - author: Seth Dobbs
+        description: >-
+          In this blog post, W3C CEO Seth Dobbs describes W3Cs 30th anniversary
+          event, and shares his impressions after attending for the first time a
+          W3C TPAC which attracts in a week several hundreds from the W3C
+          community in order to coordinate solutions to web problems.
+        link: >-
+          https://www.w3.org/blog/2024/w3c-30th-anniversary-impressions-on-my-first-tpac/
+        pubDate: Wed, 23 Oct 2024 21:38:00 +0000
+        title: W3C 30th anniversary & impressions on my first TPAC
+      - author: Ian Jacobs, François Daoust
+        description: >-
+          In this post, the staff who organize TPAC breakout sessions share
+          thoughts on the topics covered this year and some feedback received so
+          far.
+        link: https://www.w3.org/blog/2024/reflections-on-tpac-2024-breakouts/
+        pubDate: Wed, 16 Oct 2024 14:49:00 +0000
+        title: Reflections on TPAC 2024 Breakouts
+      - author: Coralie Mercier
+        description: >-
+          In this blog post, W3C's Head of Marketing and Communications Coralie
+          Mercier shares a recent filmed interview for W3C Member Igalia on the
+          history of the Web, and reflects on the importance of standards and
+          how they are done in the very long run.
+        link: >-
+          https://www.w3.org/blog/2024/on-the-55th-world-standards-day-my-history-of-the-web-and-relationship-with-w3c/
+        pubDate: Mon, 14 Oct 2024 13:25:00 +0000
+        title: >-
+          On the 55th World Standards Day, my history of the Web and
+          relationship with W3C
+      - author: Shawn Lawton Henry
+        description: >-
+          As W3C celebrates 30 years, we also celebrate the success of the
+          Accessibility Education and Outreach Working Group (EOWG), share news
+          of its closure, and look forward to a new chapter in W3C accessibility
+          work.
+        link: >-
+          https://www.w3.org/blog/2024/accessibility-education-and-outreach-another-milestone-in-w3cs-30-year-history-and-evolution/
+        pubDate: Thu, 19 Sep 2024 19:02:00 +0000
+        title: >-
+          Accessibility education and outreach: Another milestone in W3C's
+          30-year history and evolution
+    x-api-evangelist-pulled: 2025-8-30
   - url: https://www.w3.org/news/feed/
     name: News Feed
     type: BlogFeeds
