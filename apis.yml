@@ -6,9 +6,9 @@ apis:
     tags:
       - Standards
       - Web
-    humanURL: ' https://www.w3.org/'
+    humanURL: 'https://www.w3.org/'
     properties:
-      - url: ' https://www.w3.org/'
+      - url: 'https://www.w3.org/'
         type: Documentation
       - url: properties/w3c-openapi.yml
         type: OpenAPI
