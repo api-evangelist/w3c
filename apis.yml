@@ -751,6 +751,9 @@ common:
     url: >-
       https://www.youtube.com/feeds/videos.xml?channel_id=UCown793uIQUwjcDPWium7IQ
     type: YouTubeFeed
+  - name: LinkedIn
+    url: https://www.linkedin.com/company/w3c/
+    type: LinkedIn
 created: '2025-08-25'
 modified: '2025-08-31'
 position: Consumer
