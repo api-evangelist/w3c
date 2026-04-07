@@ -1,5 +1,6 @@
 aid: w3c
-url: https://raw.githubusercontent.com/api-evangelist/w3c/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/w3c/refs/heads/main/apis.yml
 apis:
   - aid: w3c:w3c
     name: W3C
@@ -13,9 +14,9 @@ apis:
       - url: properties/w3c-openapi.yml
         type: OpenAPI
     description: >-
-      The World Wide Web Consortium (W3C) develops standards and guidelines to
-      help everyone build a web based on the principles of accessibility,
-      internationalization, privacy and security. 
+      The World Wide Web Consortium (W3C) develops standards and guidelines to help
+      everyone build a web based on the principles of accessibility, internationalization,
+      privacy and security.
 name: W3C
 tags:
   - Standards
@@ -75,7 +76,8 @@ common:
         link: >-
           https://www.w3.org/events/talks/2025/w3c-web-accessibility-initiative-wai-update-whats-in-it-for-you-2/
         pubDate: Wed, 27 Aug 2025 18:13:00 +0000
-        title: W3C Web Accessibility Initiative (WAI) Update — What's in it for You
+        title: W3C Web Accessibility Initiative (WAI) Update — What's in it for 
+          You
       - description: >-
           Livestreamed interview covering W3C's accessibility standards and
           their relationship with accessibility standards around the world
@@ -97,7 +99,8 @@ common:
         link: >-
           https://www.w3.org/events/talks/2025/w3c-web-accessibility-initiative-wai-update-whats-in-it-for-you/
         pubDate: Thu, 31 Jul 2025 14:58:00 +0000
-        title: W3C Web Accessibility Initiative (WAI) update — What's in it for you
+        title: W3C Web Accessibility Initiative (WAI) update — What's in it for 
+          you
       - description: >-
           A plenary open to all TPAC2024 attendees replaced the regular W3C AC
           Meeting. The plenary will cover W3C business and consortium updates.
@@ -115,7 +118,8 @@ common:
       - description: >-
           The Chinese Web IG and MiniApps WG are organizing the WebEvolve 2025
           Annual Event on 56 September, in Hangzhou, China.
-        link: https://www.w3.org/events/happenings/2025/webevolve-2025-annual-event/
+        link: 
+          https://www.w3.org/events/happenings/2025/webevolve-2025-annual-event/
         pubDate: Thu, 03 Jul 2025 11:18:00 +0000
         title: WebEvolve 2025 Annual Event
       - description: >-
@@ -144,7 +148,8 @@ common:
       - description: >-
           A practical and collaborative session including a serious game to
           explore the threats and initial principles for Digital Wallets
-        link: https://www.w3.org/events/talks/2025/threat-model-for-digital-wallets/
+        link: 
+          https://www.w3.org/events/talks/2025/threat-model-for-digital-wallets/
         pubDate: Wed, 25 Jun 2025 13:00:00 +0000
         title: Threat Model for Digital Wallets
       - description: >-
@@ -225,7 +230,8 @@ common:
       - description: >-
           W3C has been invited by Huawei, a partner of the 2025 OpenHarmony
           Developer Conference, to attend the Web  W3C Track.
-        link: https://www.w3.org/events/happenings/2025/openharmony-developer-2025/
+        link: 
+          https://www.w3.org/events/happenings/2025/openharmony-developer-2025/
         pubDate: Wed, 14 May 2025 08:57:00 +0000
         title: 2025 OpenHarmony Developer Conference
       - description: >-
@@ -253,7 +259,8 @@ common:
     data:
       - link: >-
           https://www.w3.org/blog/2025/26-awardees-in-w3cs-tpac-inclusion-and-invited-expert-support-funds/
-        title: 26 awardees in W3C's TPAC Inclusion and Invited Expert Support funds
+        title: 26 awardees in W3C's TPAC Inclusion and Invited Expert Support 
+          funds
         author: Seth Dobbs, W3C CEO and President
         pubDate: Wed, 27 Aug 2025 10:29:00 +0000
         description: >-
@@ -341,7 +348,8 @@ common:
           users around the world by levelling up privacy.
       - link: >-
           https://www.w3.org/blog/2025/educational-and-cultural-exchange-on-digital-accessibility-highlights-from-hong-kong/
-        title: "Educational and Cultural Exchange on Digital Accessibility \x14 Highlights from Hong Kong"
+        title: "Educational and Cultural Exchange on Digital Accessibility \x14 Highlights
+          from Hong Kong"
         author: Shawn Henry
         pubDate: Thu, 15 May 2025 08:30:00 +0000
         description: >-
@@ -351,7 +359,8 @@ common:
       - link: >-
           https://www.w3.org/blog/2025/epub3-3-recommendations-published-work-begins-on-new-features/
         title: EPUB3.3 Recommendations published, work begins on new features
-        author: Susan Neuhaus, co-Chair of the Publishing Maintenance Working Group
+        author: Susan Neuhaus, co-Chair of the Publishing Maintenance Working 
+          Group
         pubDate: Wed, 23 Apr 2025 15:03:00 +0000
         description: >-
           The Publishing Maintenance Working Group (PMWG) has finalized the EPUB
@@ -375,7 +384,8 @@ common:
           users.
       - link: >-
           https://www.w3.org/blog/2025/first-catalog-of-web-features-completed-by-the-webdx-community-group/
-        title: First catalog of web features completed by the WebDX Community Group
+        title: First catalog of web features completed by the WebDX Community 
+          Group
         author: >-
           Patrick Brosset, co-chair of the WebDX Community Group, François
           Daoust, co-chair of the WebDX Community Group
@@ -388,7 +398,8 @@ common:
       - link: >-
           https://www.w3.org/blog/2025/how-to-protect-your-web-applications-from-xss/
         title: How to protect your Web applications from XSS
-        author: Simone Onofri, W3C Security Lead, Daniel Appelquist, W3C SWAG CG Chair
+        author: Simone Onofri, W3C Security Lead, Daniel Appelquist, W3C SWAG CG
+          Chair
         pubDate: Thu, 06 Mar 2025 19:16:00 +0000
         description: >-
           The W3C SWAG (Security Web Application Guidelines) Community Group,
@@ -477,13 +488,15 @@ common:
           play a part in shaping its future.
       - link: >-
           https://www.w3.org/blog/2024/semantic-interoperability-key-to-open-ecosystems-on-the-web/
-        title: AIOTI Workshop on Semantic Interoperability for Digital Twins at ERCIM
+        title: AIOTI Workshop on Semantic Interoperability for Digital Twins at 
+          ERCIM
         author: Dave Raggett
         pubDate: Thu, 14 Nov 2024 08:00:00 +0000
         description: >-
           the workshop will discuss Semantic interoperability  key to open
           ecosystems on the Web
-      - link: https://www.w3.org/blog/2024/sustainable-web-interest-group-is-formed/
+      - link: 
+          https://www.w3.org/blog/2024/sustainable-web-interest-group-is-formed/
         title: Sustainable Web Interest Group is formed
         author: Tzviya Siegman
         pubDate: Mon, 04 Nov 2024 14:26:00 +0000
@@ -648,12 +661,14 @@ common:
           Portable Network Graphics (PNG) Specification (Third Edition) is now a
           W3C Recommendation
         pubDate: Tue, 24 Jun 2025 08:44:00 +0000
-        description: The Third Edition adds Animated PNG and High Dynamic Range (HDR) PNG.
+        description: The Third Edition adds Animated PNG and High Dynamic Range 
+          (HDR) PNG.
       - link: >-
           https://www.w3.org/news/2025/draft-group-note-linked-web-storage-use-cases/
         title: 'Draft Group Note: Linked Web Storage Use Cases'
         pubDate: Tue, 24 Jun 2025 08:30:00 +0000
-        description: User stories and use cases for the Linked Web Storage (LWS) spec.
+        description: User stories and use cases for the Linked Web Storage (LWS)
+          spec.
       - link: >-
           https://www.w3.org/news/2025/w3c-invites-implementations-of-mathml-core/
         title: W3C invites implementations of MathML Core
@@ -685,7 +700,8 @@ common:
         description: >-
           The W3C Advisory Committee has elected seven individuals to the W3C
           Advisory Board (AB) .
-      - link: https://www.w3.org/news/2025/privacy-principles-is-a-w3c-statement/
+      - link: 
+          https://www.w3.org/news/2025/privacy-principles-is-a-w3c-statement/
         title: Privacy Principles is a W3C Statement
         pubDate: Thu, 15 May 2025 14:06:00 +0000
         description: >-
@@ -752,13 +768,13 @@ common:
   - url: https://www.linkedin.com/company/w3c/
     name: LinkedIn
     type: LinkedIn
-created: 2025-08-25T00:00:00.000Z
-modified: 2025-08-31T00:00:00.000Z
+created: 2025-08-25T00:00:00Z
+modified: 2025-08-31T00:00:00Z
 position: Consumer
 description: >-
-  The World Wide Web Consortium (W3C) develops standards and guidelines to help
-  everyone build a web based on the principles of accessibility,
-  internationalization, privacy and security. 
+  The World Wide Web Consortium (W3C) develops standards and guidelines to help everyone
+  build a web based on the principles of accessibility, internationalization, privacy
+  and security.
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
