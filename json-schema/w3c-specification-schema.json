@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://api-evangelist.github.io/w3c/json-schema/w3c-specification-schema.json",
+  "title": "W3C Technical Report",
+  "description": "Schema for a W3C Technical Report as returned by the W3C API",
+  "type": "object",
+  "properties": {
+    "shortname": {
+      "type": "string",
+      "description": "The short name identifier for the specification (e.g., 'html', 'css-grid', 'vc-data-model-2.0')"
+    },
+    "title": {
+      "type": "string",
+      "description": "Full title of the specification"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description of the specification's purpose"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "ED",
+        "FPWD",
+        "WD",
+        "CR",
+        "CRD",
+        "PR",
+        "REC",
+        "SPSD",
+        "OBSL",
+        "NOTE",
+        "DNOTE",
+        "DRY",
+        "STMT"
+      ],
+      "description": "The maturity level of the specification in the W3C process"
+    },
+    "editorsDraftUri": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL of the living editor's draft"
+    },
+    "latestVersion": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL of the latest published version"
+    },
+    "thisVersion": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL of this specific version"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of this publication"
+    },
+    "informative": {
+      "type": "boolean",
+      "description": "Whether this is an informative (non-normative) document"
+    },
+    "deliverers": {
+      "type": "array",
+      "description": "Working groups or community groups that produced this specification",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "link": { "type": "string", "format": "uri" },
+          "id": { "type": "integer" }
+        }
+      }
+    },
+    "editors": {
+      "type": "array",
+      "description": "Editors of the specification",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "affiliation": { "type": "string" },
+          "mailto": { "type": "string" },
+          "uri": { "type": "string", "format": "uri" }
+        }
+      }
+    },
+    "seriesShortname": {
+      "type": "string",
+      "description": "The series this specification belongs to"
+    }
+  },
+  "required": ["shortname", "title", "status"]
+}

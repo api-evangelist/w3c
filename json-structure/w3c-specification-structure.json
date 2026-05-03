@@ -1,0 +1,57 @@
+{
+  "title": "W3C Technical Report Structure",
+  "description": "Structural documentation for W3C Technical Reports and the W3C standards process",
+  "version": "1.0.0",
+  "root": "TechnicalReport",
+  "entities": [
+    {
+      "name": "TechnicalReport",
+      "description": "A W3C Technical Report (specification, note, or statement)",
+      "fields": [
+        { "name": "shortname", "type": "string", "required": true, "description": "Short identifier (e.g., 'html', 'css-grid')" },
+        { "name": "title", "type": "string", "required": true, "description": "Full specification title" },
+        { "name": "status", "type": "MaturityLevel", "required": true, "description": "Current maturity level in W3C process" },
+        { "name": "date", "type": "date", "required": false, "description": "Publication date" },
+        { "name": "latestVersion", "type": "uri", "required": false, "description": "URL to latest version" },
+        { "name": "editorsDraftUri", "type": "uri", "required": false, "description": "Editor's draft URL" },
+        { "name": "deliverers", "type": "array[WorkingGroup]", "required": false, "description": "Producing working groups" },
+        { "name": "editors", "type": "array[Editor]", "required": false, "description": "Specification editors" }
+      ]
+    },
+    {
+      "name": "MaturityLevel",
+      "description": "W3C standards process maturity levels in order of progression",
+      "values": [
+        { "value": "ED", "label": "Editor's Draft", "description": "Unpublished working copy" },
+        { "value": "FPWD", "label": "First Public Working Draft", "description": "First public W3C Working Draft" },
+        { "value": "WD", "label": "Working Draft", "description": "Working Draft published by a W3C Working Group" },
+        { "value": "CR", "label": "Candidate Recommendation", "description": "Technically mature specification seeking implementation experience" },
+        { "value": "CRD", "label": "Candidate Recommendation Draft", "description": "Updated Candidate Recommendation snapshot" },
+        { "value": "PR", "label": "Proposed Recommendation", "description": "Awaiting W3C Advisory Committee review" },
+        { "value": "REC", "label": "W3C Recommendation", "description": "Endorsed W3C standard" },
+        { "value": "NOTE", "label": "Group Note", "description": "Informative document published by a W3C group" },
+        { "value": "STMT", "label": "W3C Statement", "description": "Document formally endorsed by W3C" }
+      ]
+    },
+    {
+      "name": "WorkingGroup",
+      "description": "A W3C Working Group or Community Group that develops specifications",
+      "fields": [
+        { "name": "id", "type": "integer", "required": true, "description": "W3C group identifier" },
+        { "name": "name", "type": "string", "required": true, "description": "Group name" },
+        { "name": "link", "type": "uri", "required": false, "description": "Group homepage URL" },
+        { "name": "type", "type": "string", "required": false, "description": "Group type (working-group, community-group, interest-group)" }
+      ]
+    },
+    {
+      "name": "Editor",
+      "description": "An editor of a W3C specification",
+      "fields": [
+        { "name": "name", "type": "string", "required": true, "description": "Editor's full name" },
+        { "name": "affiliation", "type": "string", "required": false, "description": "Editor's organizational affiliation" },
+        { "name": "mailto", "type": "string", "required": false, "description": "Editor's email address" },
+        { "name": "uri", "type": "uri", "required": false, "description": "Editor's personal or organizational URL" }
+      ]
+    }
+  ]
+}

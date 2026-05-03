@@ -1,0 +1,105 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "w3c": "https://www.w3.org/2001/01/owl-features#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "org": "http://www.w3.org/ns/org#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "TechnicalReport": {
+      "@id": "schema:TechArticle",
+      "@type": "@id"
+    },
+
+    "Specification": {
+      "@id": "schema:TechArticle",
+      "@type": "@id"
+    },
+
+    "WorkingGroup": {
+      "@id": "org:OrganizationalUnit",
+      "@type": "@id"
+    },
+
+    "shortname": {
+      "@id": "schema:identifier",
+      "@type": "xsd:string"
+    },
+
+    "title": {
+      "@id": "schema:name",
+      "@type": "xsd:string"
+    },
+
+    "description": {
+      "@id": "schema:description",
+      "@type": "xsd:string"
+    },
+
+    "status": {
+      "@id": "schema:creativeWorkStatus",
+      "@type": "xsd:string"
+    },
+
+    "date": {
+      "@id": "schema:datePublished",
+      "@type": "xsd:date"
+    },
+
+    "latestVersion": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+
+    "editors": {
+      "@id": "schema:editor",
+      "@type": "@id"
+    },
+
+    "deliverers": {
+      "@id": "schema:contributor",
+      "@type": "@id"
+    },
+
+    "Editor": {
+      "@id": "schema:Person",
+      "@type": "@id"
+    },
+
+    "name": {
+      "@id": "schema:name",
+      "@type": "xsd:string"
+    },
+
+    "affiliation": {
+      "@id": "schema:affiliation",
+      "@type": "@id"
+    },
+
+    "W3CRecommendation": {
+      "@id": "schema:TechArticle"
+    },
+
+    "WCAG": {
+      "@id": "w3c:WCAG",
+      "@type": "schema:TechArticle"
+    },
+
+    "JSONLD": {
+      "@id": "w3c:JSONLD",
+      "@type": "schema:TechArticle"
+    },
+
+    "WebAssembly": {
+      "@id": "w3c:WebAssembly",
+      "@type": "schema:TechArticle"
+    },
+
+    "VerifiableCredential": {
+      "@id": "w3c:VerifiableCredential",
+      "@type": "schema:TechArticle"
+    }
+  }
+}

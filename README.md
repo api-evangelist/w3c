@@ -1,61 +1,48 @@
-# W3C (w3c)
-The World Wide Web Consortium (W3C) develops standards and guidelines to help everyone build a web based on the principles of accessibility, internationalization, privacy and security. 
+# W3C
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/w3c/refs/heads/main/apis.yml)
+The World Wide Web Consortium (W3C) is the main international standards body for the World Wide Web, founded by Tim Berners-Lee in 1994. W3C develops web standards and guidelines to ensure the long-term growth of the Web, focusing on accessibility, internationalization, privacy, and security. W3C specifications include HTML, CSS, XML, SVG, WebAssembly, ARIA, WCAG, JSON-LD, Verifiable Credentials, and hundreds of other foundational web technologies.
 
-## Scope
+- **Website:** [https://www.w3.org/](https://www.w3.org/)
+- **Technical Reports:** [https://www.w3.org/TR/](https://www.w3.org/TR/)
+- **API:** [https://api.w3.org/](https://api.w3.org/)
+- **GitHub Org:** [https://github.com/w3c/](https://github.com/w3c/)
+- **Blog:** [https://www.w3.org/blog/](https://www.w3.org/blog/)
 
-- **Type:** Index 
-- **Position:** Consumer 
-- **Access:** 3rd-Party 
+## APIs and Specifications
 
-## Tags:
+| Specification | Description |
+|--------------|-------------|
+| [W3C API](https://api.w3.org/) | Programmatic access to W3C data: specifications, working groups, editors, and translations |
+| [WCAG 2.2](https://www.w3.org/TR/WCAG22/) | Web Content Accessibility Guidelines - international web accessibility standard |
+| [HTML](https://html.spec.whatwg.org/) | HyperText Markup Language - the foundational markup language for the web |
+| [CSS](https://www.w3.org/TR/CSS/) | Cascading Style Sheets - web presentation and styling specifications |
+| [JSON-LD 1.1](https://www.w3.org/TR/json-ld11/) | JSON for Linking Data - semantic web through JSON context declarations |
+| [Verifiable Credentials 2.0](https://www.w3.org/TR/vc-data-model-2.0/) | Cryptographically secure, privacy-respecting digital credentials standard |
+| [WebAssembly](https://www.w3.org/TR/wasm-core-2/) | Binary instruction format for near-native performance in browsers |
+| [WAI-ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) | Accessible Rich Internet Applications for accessible dynamic content |
+| [RDF and SPARQL 1.2](https://www.w3.org/RDF/) | Resource Description Framework and query language for the semantic web |
+| [Digital Credentials API](https://www.w3.org/TR/digital-credentials/) | Browser-mediated digital identity credential presentation and issuance |
 
- - Standards, Web
+## Rules
 
-## Timestamps
+- [W3C Spectral Rules](rules/w3c-rules.yml) - Spectral rules for W3C API governance
 
-- **Created:** 2025-08-25 
-- **Modified:** 2025-08-29 
+## Schemas
 
-## APIs
+- [W3C Technical Report Schema](json-schema/w3c-specification-schema.json) - JSON Schema for W3C Technical Report objects
 
-### W3C
-The World Wide Web Consortium (W3C) develops standards and guidelines to help everyone build a web based on the principles of accessibility, internationalization, privacy and security. 
+## Structures
 
-**Human URL:** [ https://www.w3.org/]( https://www.w3.org/)
+- [W3C Technical Report Structure](json-structure/w3c-specification-structure.json) - Structural documentation for W3C Technical Reports and the standards process
 
+## Linked Data
 
-#### Tags:
+- [W3C JSON-LD Context](json-ld/w3c-context.jsonld) - JSON-LD context mapping W3C concepts to schema.org vocabulary
 
- - Standards, Web
+## Vocabulary
 
-#### Properties
+- [W3C Vocabulary](vocabulary/w3c-vocabulary.yml) - Domain vocabulary covering W3C process, specifications, and accessibility standards
 
-- [Documentation]( https://www.w3.org/)
-- [OpenAPI](properties/w3c-openapi.yml)
+## Tags
 
-## Common Properties
-
-- [Website](https://www.w3.org/)
-- [News](https://www.w3.org/news/)
-- [PressReleases](https://www.w3.org/press-releases/)
-- [Blog](https://www.w3.org/blog/)
-- [Donations](https://www.w3.org/donate/)
-- [Help](https://www.w3.org/help/)
-- [CopyrightPolicy](https://www.w3.org/copyright/intellectual-rights/)
-- [Branding](https://www.w3.org/policies/logos/)
-- [Sponsorship](https://www.w3.org/sponsor/)
-- [Events](https://www.w3.org/events/)
-- [Mastodon](https://w3c.social/@w3c)
-- [GitHubOrganization](https://github.com/w3c/)
-- [BlogFeeds](https://www.w3.org/events/feed/)
-- [BlogFeeds](https://www.w3.org/blog/feed/)
-- [BlogFeeds](https://www.w3.org/news/feed/)
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** info@apievangelist.com
-
+`Accessibility` `Standards` `Web` `Web Standards`

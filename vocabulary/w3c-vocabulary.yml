@@ -1,0 +1,194 @@
+name: W3C Vocabulary
+description: >-
+  Domain vocabulary for the World Wide Web Consortium (W3C) covering web standards
+  terminology, standards process concepts, specification maturity levels, and key
+  W3C technical specifications.
+version: '1.0.0'
+created: '2026-05-03'
+modified: '2026-05-03'
+tags:
+  - Accessibility
+  - Standards
+  - Web
+  - Web Standards
+
+process:
+  - term: W3C Recommendation (REC)
+    definition: >-
+      The highest maturity level in the W3C standards process. A W3C Recommendation
+      has been endorsed by the W3C Director and the W3C membership and is a stable,
+      formal W3C standard. All browsers and implementors are expected to implement
+      W3C Recommendations.
+    related:
+      - Candidate Recommendation
+      - Working Group
+
+  - term: Working Draft (WD)
+    definition: >-
+      A document published by a W3C Working Group for review by the community.
+      Working Drafts are work in progress and may change substantially. The First
+      Public Working Draft (FPWD) marks a specification's official publication journey.
+    related:
+      - Working Group
+      - Candidate Recommendation
+
+  - term: Candidate Recommendation (CR)
+    definition: >-
+      A technically mature W3C specification that the Working Group believes is
+      complete and ready for implementation. CR status calls for implementations to
+      provide feedback. A Candidate Recommendation Draft (CRD) is an updated snapshot.
+    related:
+      - Working Draft
+      - Proposed Recommendation
+
+  - term: Proposed Recommendation (PR)
+    definition: >-
+      A W3C specification that has met all Candidate Recommendation requirements,
+      has two or more interoperable implementations, and is awaiting endorsement by
+      the W3C Advisory Committee.
+    related:
+      - Candidate Recommendation
+      - W3C Recommendation
+
+  - term: Working Group
+    definition: >-
+      A group of W3C member representatives and invited experts chartered to produce
+      one or more W3C deliverables (typically Recommendations). Working Groups operate
+      under the W3C Process Document and have a specific scope and charter.
+    related:
+      - Community Group
+      - Interest Group
+
+  - term: Community Group
+    definition: >-
+      A W3C group that allows W3C members and non-members to collaborate on web
+      specifications outside the formal W3C Process. Many successful web technologies
+      began as Community Group work before moving to a Working Group.
+    related:
+      - Working Group
+
+  - term: TPAC
+    definition: >-
+      Technical Plenary and Advisory Committee Meetings Week. W3C's annual gathering
+      where Working Groups, Interest Groups, and the Advisory Committee meet for
+      cross-group coordination, joint meetings, and plenary discussions.
+    related:
+      - Advisory Committee
+
+  - term: Advisory Committee (AC)
+    definition: >-
+      The W3C body consisting of one representative from each W3C member organization.
+      The Advisory Committee reviews proposed changes to the W3C Process, reviews
+      proposals for new Working Groups, and endorses Proposed Recommendations.
+    related:
+      - Working Group
+
+specifications:
+  - term: HTML
+    definition: >-
+      HyperText Markup Language, the standard markup language for web pages.
+      The current version is maintained as a living standard by WHATWG and
+      published as a W3C Recommendation.
+    related:
+      - CSS
+      - DOM
+
+  - term: CSS
+    definition: >-
+      Cascading Style Sheets, the language used for describing the presentation
+      of HTML documents. CSS is maintained by the W3C CSS Working Group as a
+      family of modules (CSS Grid, Flexbox, Custom Properties, etc.).
+    related:
+      - HTML
+
+  - term: WCAG
+    definition: >-
+      Web Content Accessibility Guidelines. The international standard for
+      web accessibility, providing success criteria at levels A, AA, and AAA.
+      WCAG 2.2 is the current W3C Recommendation; WCAG 3.0 is in development.
+    related:
+      - WAI-ARIA
+      - Accessibility
+
+  - term: WAI-ARIA
+    definition: >-
+      Web Accessibility Initiative - Accessible Rich Internet Applications.
+      A W3C specification defining HTML attributes that improve accessibility
+      for dynamic content and custom UI components.
+    related:
+      - WCAG
+
+  - term: JSON-LD
+    definition: >-
+      JSON for Linking Data. A W3C Recommendation for encoding linked data
+      using JSON, enabling semantic interoperability through @context declarations.
+    related:
+      - RDF
+      - Linked Data
+
+  - term: RDF
+    definition: >-
+      Resource Description Framework. A W3C standard for representing information
+      as subject-predicate-object triples, forming the foundation of the semantic web.
+    related:
+      - SPARQL
+      - JSON-LD
+
+  - term: SPARQL
+    definition: >-
+      A W3C Recommendation for querying and updating RDF data using a SQL-like
+      query language. SPARQL 1.2 is the current version, adding features like
+      federated queries and property paths.
+    related:
+      - RDF
+
+  - term: WebAssembly (Wasm)
+    definition: >-
+      A W3C Recommendation defining a binary instruction format for a
+      stack-based virtual machine that runs in all modern browsers at near-native
+      speed.
+    related:
+      - Web Platform
+
+  - term: Verifiable Credentials (VC)
+    definition: >-
+      A W3C Recommendation for expressing cryptographically verifiable digital
+      credentials. VC 2.0, published as a W3C Recommendation in 2025, enables
+      privacy-preserving digital identity on the web.
+    related:
+      - Digital Credentials
+      - Identity
+
+  - term: Digital Credentials API
+    definition: >-
+      A W3C specification enabling browser-mediated presentation and issuance
+      of digital identity credentials from digital wallets. Enables privacy-preserving
+      identity verification on the web.
+    related:
+      - Verifiable Credentials
+
+accessibility:
+  - term: Success Criterion
+    definition: >-
+      Testable statements in WCAG that define the requirements for content to be
+      considered accessible at a given conformance level (A, AA, AAA).
+    related:
+      - WCAG
+      - Conformance Level
+
+  - term: Conformance Level
+    definition: >-
+      WCAG defines three conformance levels: Level A (minimum), Level AA (standard),
+      and Level AAA (enhanced). Most regulations require Level AA conformance.
+    related:
+      - WCAG
+      - Success Criterion
+
+  - term: POUR Principles
+    definition: >-
+      The four core accessibility principles of WCAG: Perceivable (information
+      must be presentable in ways users can perceive), Operable (UI components
+      must be operable), Understandable (information must be understandable),
+      and Robust (content must be robust enough for diverse assistive technologies).
+    related:
+      - WCAG
