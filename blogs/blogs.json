@@ -1,0 +1,13 @@
+{
+  "repo": "w3c",
+  "feeds": [
+    {
+      "source": "https://www.w3.org/blog/",
+      "feed_url": "https://www.w3.org/blog/feed/",
+      "saved": 10,
+      "title": "W3C - Blog"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:38:04Z"
+}
