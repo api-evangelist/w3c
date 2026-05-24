@@ -1,0 +1,283 @@
+openapi: 3.1.0
+info:
+  title: W3C API
+  version: "1.0.0"
+  summary: Read-only JSON API for W3C specifications, groups, ecosystems, translations, and affiliations.
+  description: |
+    The W3C API provides programmatic access to W3C data including specifications,
+    working groups, editors, translations, and affiliations.
+
+    All access is over HTTPS via `api.w3.org`. Data is returned as JSON with
+    ISO 8601 timestamps. No authentication is required; the rate limit is
+    6000 requests per IP per 10 minutes.
+
+    Documentation: https://api.w3.org/doc
+  contact:
+    name: W3C
+    url: https://www.w3.org/
+servers:
+  - url: https://api.w3.org
+    description: W3C public read-only API
+tags:
+  - name: Specifications
+  - name: Groups
+  - name: Ecosystems
+  - name: Translations
+  - name: Affiliations
+paths:
+  /specifications:
+    get:
+      tags: [Specifications]
+      summary: List specifications
+      operationId: listSpecifications
+      parameters:
+        - $ref: '#/components/parameters/Page'
+        - $ref: '#/components/parameters/Items'
+        - $ref: '#/components/parameters/Embed'
+      responses:
+        "200":
+          description: Paginated specifications collection
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SpecificationList'
+  /specifications/{shortname}:
+    parameters:
+      - $ref: '#/components/parameters/Shortname'
+    get:
+      tags: [Specifications]
+      summary: Get a specification by shortname
+      operationId: getSpecification
+      responses:
+        "200":
+          description: Specification details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Specification'
+        "404": { $ref: '#/components/responses/NotFound' }
+  /specifications/{shortname}/versions:
+    parameters:
+      - $ref: '#/components/parameters/Shortname'
+      - $ref: '#/components/parameters/Page'
+      - $ref: '#/components/parameters/Items'
+    get:
+      tags: [Specifications]
+      summary: List versions of a specification
+      operationId: listSpecificationVersions
+      responses:
+        "200":
+          description: Versions collection
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+  /groups:
+    get:
+      tags: [Groups]
+      summary: List groups
+      operationId: listGroups
+      parameters:
+        - $ref: '#/components/parameters/Page'
+        - $ref: '#/components/parameters/Items'
+        - $ref: '#/components/parameters/Embed'
+      responses:
+        "200":
+          description: Paginated groups collection
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GroupList'
+  /groups/{id}:
+    parameters:
+      - $ref: '#/components/parameters/NumericID'
+    get:
+      tags: [Groups]
+      summary: Get a group by ID
+      operationId: getGroup
+      responses:
+        "200":
+          description: Group details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Group'
+        "404": { $ref: '#/components/responses/NotFound' }
+  /ecosystems:
+    get:
+      tags: [Ecosystems]
+      summary: List ecosystems
+      operationId: listEcosystems
+      parameters:
+        - $ref: '#/components/parameters/Page'
+        - $ref: '#/components/parameters/Items'
+      responses:
+        "200":
+          description: Paginated ecosystems collection
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+  /translations:
+    get:
+      tags: [Translations]
+      summary: List translations
+      operationId: listTranslations
+      parameters:
+        - $ref: '#/components/parameters/Page'
+        - $ref: '#/components/parameters/Items'
+      responses:
+        "200":
+          description: Paginated translations collection
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+  /affiliations:
+    get:
+      tags: [Affiliations]
+      summary: List affiliations
+      operationId: listAffiliations
+      parameters:
+        - $ref: '#/components/parameters/Page'
+        - $ref: '#/components/parameters/Items'
+      responses:
+        "200":
+          description: Paginated affiliations collection
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+  /affiliations/{id}:
+    parameters:
+      - $ref: '#/components/parameters/NumericID'
+    get:
+      tags: [Affiliations]
+      summary: Get an affiliation by ID
+      operationId: getAffiliation
+      responses:
+        "200":
+          description: Affiliation details
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+        "404": { $ref: '#/components/responses/NotFound' }
+components:
+  parameters:
+    Page:
+      name: page
+      in: query
+      description: Page number (default 1).
+      schema: { type: integer, default: 1, minimum: 1 }
+    Items:
+      name: items
+      in: query
+      description: Page size (default 100, max 1000).
+      schema: { type: integer, default: 100, minimum: 1, maximum: 1000 }
+    Embed:
+      name: embed
+      in: query
+      description: Embed related resources on supported routes.
+      schema: { type: boolean }
+    Shortname:
+      name: shortname
+      in: path
+      required: true
+      description: W3C specification shortname (e.g. `html52`, `wcag22`).
+      schema: { type: string }
+    NumericID:
+      name: id
+      in: path
+      required: true
+      schema: { type: integer }
+  responses:
+    NotFound:
+      description: Resource not found
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+  schemas:
+    Link:
+      type: object
+      properties:
+        href: { type: string, format: uri }
+        title: { type: string }
+    HalLinks:
+      type: object
+      properties:
+        self: { $ref: '#/components/schemas/Link' }
+        first: { $ref: '#/components/schemas/Link' }
+        last: { $ref: '#/components/schemas/Link' }
+        next: { $ref: '#/components/schemas/Link' }
+        prev: { $ref: '#/components/schemas/Link' }
+    SpecificationList:
+      type: object
+      properties:
+        page: { type: integer }
+        limit: { type: integer }
+        pages: { type: integer }
+        total: { type: integer }
+        _links:
+          allOf:
+            - $ref: '#/components/schemas/HalLinks'
+            - type: object
+              properties:
+                specifications:
+                  type: array
+                  items: { $ref: '#/components/schemas/Link' }
+    Specification:
+      type: object
+      properties:
+        shortname: { type: string }
+        title: { type: string }
+        description: { type: string }
+        editor-draft: { type: string, format: uri }
+        series:
+          type: object
+          additionalProperties: true
+        _links:
+          type: object
+          additionalProperties: true
+    GroupList:
+      type: object
+      properties:
+        page: { type: integer }
+        limit: { type: integer }
+        pages: { type: integer }
+        total: { type: integer }
+        _links:
+          allOf:
+            - $ref: '#/components/schemas/HalLinks'
+            - type: object
+              properties:
+                groups:
+                  type: array
+                  items: { $ref: '#/components/schemas/Link' }
+    Group:
+      type: object
+      properties:
+        id: { type: integer }
+        name: { type: string }
+        is_closed: { type: boolean }
+        description: { type: string }
+        shortname: { type: string }
+        type:
+          type: string
+          examples: [working group, interest group, community group, business group]
+        start-date: { type: string, format: date }
+        end-date: { type: string, format: date }
+        _links:
+          type: object
+          additionalProperties: true
+    Error:
+      type: object
+      properties:
+        code: { type: integer }
+        message: { type: string }
