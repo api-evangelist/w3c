@@ -1,0 +1,273 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "W3C API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Specifications",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "List specifications",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.w3.org/specifications",
+            "params": [
+              {
+                "name": "page",
+                "value": "",
+                "type": "query",
+                "description": "Page number (default 1)."
+              },
+              {
+                "name": "items",
+                "value": "",
+                "type": "query",
+                "description": "Page size (default 100, max 1000)."
+              },
+              {
+                "name": "embed",
+                "value": "",
+                "type": "query",
+                "description": "Embed related resources on supported routes."
+              }
+            ]
+          },
+          "docs": "List specifications"
+        },
+        {
+          "info": {
+            "name": "Get a specification by shortname",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.w3.org/specifications/:shortname",
+            "params": [
+              {
+                "name": "shortname",
+                "value": "",
+                "type": "path",
+                "description": "W3C specification shortname (e.g. `html52`, `wcag22`)."
+              }
+            ]
+          },
+          "docs": "Get a specification by shortname"
+        },
+        {
+          "info": {
+            "name": "List versions of a specification",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.w3.org/specifications/:shortname/versions",
+            "params": [
+              {
+                "name": "shortname",
+                "value": "",
+                "type": "path",
+                "description": "W3C specification shortname (e.g. `html52`, `wcag22`)."
+              },
+              {
+                "name": "page",
+                "value": "",
+                "type": "query",
+                "description": "Page number (default 1)."
+              },
+              {
+                "name": "items",
+                "value": "",
+                "type": "query",
+                "description": "Page size (default 100, max 1000)."
+              }
+            ]
+          },
+          "docs": "List versions of a specification"
+        }
+      ]
+    },
+    {
+      "info": {
+        "name": "Groups",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "List groups",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.w3.org/groups",
+            "params": [
+              {
+                "name": "page",
+                "value": "",
+                "type": "query",
+                "description": "Page number (default 1)."
+              },
+              {
+                "name": "items",
+                "value": "",
+                "type": "query",
+                "description": "Page size (default 100, max 1000)."
+              },
+              {
+                "name": "embed",
+                "value": "",
+                "type": "query",
+                "description": "Embed related resources on supported routes."
+              }
+            ]
+          },
+          "docs": "List groups"
+        },
+        {
+          "info": {
+            "name": "Get a group by ID",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.w3.org/groups/:id",
+            "params": [
+              {
+                "name": "id",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Get a group by ID"
+        }
+      ]
+    },
+    {
+      "info": {
+        "name": "Ecosystems",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "List ecosystems",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.w3.org/ecosystems",
+            "params": [
+              {
+                "name": "page",
+                "value": "",
+                "type": "query",
+                "description": "Page number (default 1)."
+              },
+              {
+                "name": "items",
+                "value": "",
+                "type": "query",
+                "description": "Page size (default 100, max 1000)."
+              }
+            ]
+          },
+          "docs": "List ecosystems"
+        }
+      ]
+    },
+    {
+      "info": {
+        "name": "Translations",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "List translations",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.w3.org/translations",
+            "params": [
+              {
+                "name": "page",
+                "value": "",
+                "type": "query",
+                "description": "Page number (default 1)."
+              },
+              {
+                "name": "items",
+                "value": "",
+                "type": "query",
+                "description": "Page size (default 100, max 1000)."
+              }
+            ]
+          },
+          "docs": "List translations"
+        }
+      ]
+    },
+    {
+      "info": {
+        "name": "Affiliations",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "List affiliations",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.w3.org/affiliations",
+            "params": [
+              {
+                "name": "page",
+                "value": "",
+                "type": "query",
+                "description": "Page number (default 1)."
+              },
+              {
+                "name": "items",
+                "value": "",
+                "type": "query",
+                "description": "Page size (default 100, max 1000)."
+              }
+            ]
+          },
+          "docs": "List affiliations"
+        },
+        {
+          "info": {
+            "name": "Get an affiliation by ID",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.w3.org/affiliations/:id",
+            "params": [
+              {
+                "name": "id",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Get an affiliation by ID"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}
