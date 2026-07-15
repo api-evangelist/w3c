@@ -240,6 +240,8 @@ apis:
         type: GitHub
 
 common:
+  - type: AgenticAccess
+    url: agentic-access/w3c-agentic-access.yml
   - type: DomainSecurity
     url: security/w3c-domain-security.yml
   - url: https://www.w3.org/
