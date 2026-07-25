@@ -1,0 +1,65 @@
+openapi: 3.1.0
+info:
+  title: W3C Affiliations Ecosystems API
+  version: 1.0.0
+  summary: Read-only JSON API for W3C specifications, groups, ecosystems, translations, and affiliations.
+  description: 'The W3C API provides programmatic access to W3C data including specifications,
+
+    working groups, editors, translations, and affiliations.
+
+
+    All access is over HTTPS via `api.w3.org`. Data is returned as JSON with
+
+    ISO 8601 timestamps. No authentication is required; the rate limit is
+
+    6000 requests per IP per 10 minutes.
+
+
+    Documentation: https://api.w3.org/doc
+
+    '
+  contact:
+    name: W3C
+    url: https://www.w3.org/
+servers:
+- url: https://api.w3.org
+  description: W3C public read-only API
+tags:
+- name: Ecosystems
+paths:
+  /ecosystems:
+    get:
+      tags:
+      - Ecosystems
+      summary: List ecosystems
+      operationId: listEcosystems
+      parameters:
+      - $ref: '#/components/parameters/Page'
+      - $ref: '#/components/parameters/Items'
+      responses:
+        '200':
+          description: Paginated ecosystems collection
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+components:
+  parameters:
+    Items:
+      name: items
+      in: query
+      description: Page size (default 100, max 1000).
+      schema:
+        type: integer
+        default: 100
+        minimum: 1
+        maximum: 1000
+    Page:
+      name: page
+      in: query
+      description: Page number (default 1).
+      schema:
+        type: integer
+        default: 1
+        minimum: 1

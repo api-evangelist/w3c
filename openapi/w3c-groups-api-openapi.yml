@@ -1,0 +1,179 @@
+openapi: 3.1.0
+info:
+  title: W3C Affiliations Groups API
+  version: 1.0.0
+  summary: Read-only JSON API for W3C specifications, groups, ecosystems, translations, and affiliations.
+  description: 'The W3C API provides programmatic access to W3C data including specifications,
+
+    working groups, editors, translations, and affiliations.
+
+
+    All access is over HTTPS via `api.w3.org`. Data is returned as JSON with
+
+    ISO 8601 timestamps. No authentication is required; the rate limit is
+
+    6000 requests per IP per 10 minutes.
+
+
+    Documentation: https://api.w3.org/doc
+
+    '
+  contact:
+    name: W3C
+    url: https://www.w3.org/
+servers:
+- url: https://api.w3.org
+  description: W3C public read-only API
+tags:
+- name: Groups
+paths:
+  /groups:
+    get:
+      tags:
+      - Groups
+      summary: List groups
+      operationId: listGroups
+      parameters:
+      - $ref: '#/components/parameters/Page'
+      - $ref: '#/components/parameters/Items'
+      - $ref: '#/components/parameters/Embed'
+      responses:
+        '200':
+          description: Paginated groups collection
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GroupList'
+  /groups/{id}:
+    parameters:
+    - $ref: '#/components/parameters/NumericID'
+    get:
+      tags:
+      - Groups
+      summary: Get a group by ID
+      operationId: getGroup
+      responses:
+        '200':
+          description: Group details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Group'
+        '404':
+          $ref: '#/components/responses/NotFound'
+components:
+  schemas:
+    GroupList:
+      type: object
+      properties:
+        page:
+          type: integer
+        limit:
+          type: integer
+        pages:
+          type: integer
+        total:
+          type: integer
+        _links:
+          allOf:
+          - $ref: '#/components/schemas/HalLinks'
+          - type: object
+            properties:
+              groups:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Link'
+    HalLinks:
+      type: object
+      properties:
+        self:
+          $ref: '#/components/schemas/Link'
+        first:
+          $ref: '#/components/schemas/Link'
+        last:
+          $ref: '#/components/schemas/Link'
+        next:
+          $ref: '#/components/schemas/Link'
+        prev:
+          $ref: '#/components/schemas/Link'
+    Error:
+      type: object
+      properties:
+        code:
+          type: integer
+        message:
+          type: string
+    Group:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        is_closed:
+          type: boolean
+        description:
+          type: string
+        shortname:
+          type: string
+        type:
+          type: string
+          examples:
+          - working group
+          - interest group
+          - community group
+          - business group
+        start-date:
+          type: string
+          format: date
+        end-date:
+          type: string
+          format: date
+        _links:
+          type: object
+          additionalProperties: true
+    Link:
+      type: object
+      properties:
+        href:
+          type: string
+          format: uri
+        title:
+          type: string
+  parameters:
+    Embed:
+      name: embed
+      in: query
+      description: Embed related resources on supported routes.
+      schema:
+        type: boolean
+    Page:
+      name: page
+      in: query
+      description: Page number (default 1).
+      schema:
+        type: integer
+        default: 1
+        minimum: 1
+    Items:
+      name: items
+      in: query
+      description: Page size (default 100, max 1000).
+      schema:
+        type: integer
+        default: 100
+        minimum: 1
+        maximum: 1000
+    NumericID:
+      name: id
+      in: path
+      required: true
+      schema:
+        type: integer
+  responses:
+    NotFound:
+      description: Resource not found
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
