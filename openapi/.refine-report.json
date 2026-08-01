@@ -1,0 +1,22 @@
+{
+  "provider": "w3c",
+  "sources": [
+    "w3c-affiliations-api-openapi.yml",
+    "w3c-ecosystems-api-openapi.yml",
+    "w3c-groups-api-openapi.yml",
+    "w3c-specifications-api-openapi.yml",
+    "w3c-translations-api-openapi.yml"
+  ],
+  "outputs": [
+    "w3c-affiliations-api-openapi.yml",
+    "w3c-ecosystems-api-openapi.yml",
+    "w3c-groups-api-openapi.yml",
+    "w3c-specifications-api-openapi.yml",
+    "w3c-translations-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
