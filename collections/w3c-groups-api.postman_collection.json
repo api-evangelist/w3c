@@ -1,0 +1,260 @@
+{
+  "item": [
+    {
+      "id": "30a37688-8660-4bcd-968a-ce291814a309",
+      "name": "Groups",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "ece40ca8-7eb7-4c72-af18-50f743928379",
+          "name": "List groups",
+          "request": {
+            "name": "List groups",
+            "description": {},
+            "url": {
+              "path": [
+                "groups"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": false,
+                  "key": "page",
+                  "value": "1",
+                  "description": "Page number (default 1)."
+                },
+                {
+                  "disabled": false,
+                  "key": "items",
+                  "value": "100",
+                  "description": "Page size (default 100, max 1000)."
+                },
+                {
+                  "disabled": false,
+                  "key": "embed",
+                  "value": "<boolean>",
+                  "description": "Embed related resources on supported routes."
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "81e239e3-4543-4e40-9bf7-be9a06165583",
+              "name": "Paginated groups collection",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "groups"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "key": "page",
+                      "value": "1"
+                    },
+                    {
+                      "key": "items",
+                      "value": "100"
+                    },
+                    {
+                      "key": "embed",
+                      "value": "<boolean>"
+                    }
+                  ],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"page\": 2680,\n  \"limit\": 3957,\n  \"pages\": 6065,\n  \"total\": 6034,\n  \"_links\": {\n    \"self\": {\n      \"href\": \"http://xaUCecUimGkymYCMdOyViMi.zzuiMXEHpDEnd1fHMdnPW+scKWzDAmxn1su22LBd2STRKytP+FMT0AIV18mbrH0FO+EsQxh2\",\n      \"title\": \"string\"\n    },\n    \"first\": {\n      \"href\": \"http://sWPUnaBBJPPBjCFiWQsVzkPHJLVStnMz.xigQCtIwZSgs5AJidWMCbN1vyuvajKfRRkrVs72BNJyrMI9hgBYbnTaoEcBZOMI5m\",\n      \"title\": \"string\"\n    },\n    \"last\": {\n      \"href\": \"https://wGYtGpRGWIuhUQEjY.hsgqyQOcIZVL6TdCCKhNDqo.Gdod1SCLEZKCA7i,vliw\",\n      \"title\": \"string\"\n    },\n    \"next\": {\n      \"href\": \"http://PcebaLfUBOchSBqtjNBNxWSgXxDa.hlbrOlxZRV0tmBpQ\",\n      \"title\": \"string\"\n    },\n    \"prev\": {\n      \"href\": \"https://ByqECpiMXfynmMvQYVwTAgrgj.zgtpW1cp+F2L+ETG6,kGqEVJbxjVyBpKnvjuSMh-SNUhS6ac\",\n      \"title\": \"string\"\n    },\n    \"groups\": [\n      {\n        \"href\": \"https://DsSzPGEJPtOOsE.ppafa7Dveyt8pp.EFcDvb+5TrVSQklH5aveYVoKhZz6Xtviwau-3eMtPJZScXjf76JQ,BjTMB\",\n        \"title\": \"string\"\n      },\n      {\n        \"href\": \"https://B.niuqDp+ZNjCWv9Y3e.1\",\n        \"title\": \"string\"\n      }\n    ]\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "20949ebe-1a44-4bf4-b12d-91ffa93400ff",
+          "name": "Get a group by ID",
+          "request": {
+            "name": "Get a group by ID",
+            "description": {},
+            "url": {
+              "path": [
+                "groups",
+                ":id"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<integer>",
+                  "key": "id",
+                  "description": "(Required) "
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "240eb476-374a-4d3b-98f3-6da8fbc98980",
+              "name": "Group details",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "groups",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<integer>",
+                      "key": "id",
+                      "description": "(Required) "
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"id\": 7290,\n  \"name\": \"string\",\n  \"is_closed\": true,\n  \"description\": \"string\",\n  \"shortname\": \"string\",\n  \"type\": \"working group\",\n  \"start-date\": \"1958-07-21\",\n  \"end-date\": \"1963-07-30\",\n  \"_links\": {\n    \"key_0\": 3933\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "id": "98224ba6-eda4-43d6-aca3-eb1aa643a0bc",
+              "name": "Resource not found",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "groups",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<integer>",
+                      "key": "id",
+                      "description": "(Required) "
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "Not Found",
+              "code": 404,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"code\": 4094,\n  \"message\": \"string\"\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://api.w3.org",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "8276be61-9388-4b7a-9576-7642f71b72f0",
+    "name": "W3C Affiliations Groups API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "The W3C API provides programmatic access to W3C data including specifications,\nworking groups, editors, translations, and affiliations.\n\nAll access is over HTTPS via `api.w3.org`. Data is returned as JSON with\nISO 8601 timestamps. No authentication is required; the rate limit is\n6000 requests per IP per 10 minutes.\n\nDocumentation: https://api.w3.org/doc\n\n\nContact Support:\n Name: W3C",
+      "type": "text/plain"
+    }
+  }
+}

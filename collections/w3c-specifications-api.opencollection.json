@@ -1,0 +1,99 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "W3C Affiliations Specifications API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Specifications",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "List specifications",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.w3.org/specifications",
+            "params": [
+              {
+                "name": "page",
+                "value": "",
+                "type": "query",
+                "description": "Page number (default 1)."
+              },
+              {
+                "name": "items",
+                "value": "",
+                "type": "query",
+                "description": "Page size (default 100, max 1000)."
+              },
+              {
+                "name": "embed",
+                "value": "",
+                "type": "query",
+                "description": "Embed related resources on supported routes."
+              }
+            ]
+          },
+          "docs": "List specifications"
+        },
+        {
+          "info": {
+            "name": "Get a specification by shortname",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.w3.org/specifications/:shortname",
+            "params": [
+              {
+                "name": "shortname",
+                "value": "",
+                "type": "path",
+                "description": "W3C specification shortname (e.g. `html52`, `wcag22`)."
+              }
+            ]
+          },
+          "docs": "Get a specification by shortname"
+        },
+        {
+          "info": {
+            "name": "List versions of a specification",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.w3.org/specifications/:shortname/versions",
+            "params": [
+              {
+                "name": "shortname",
+                "value": "",
+                "type": "path",
+                "description": "W3C specification shortname (e.g. `html52`, `wcag22`)."
+              },
+              {
+                "name": "page",
+                "value": "",
+                "type": "query",
+                "description": "Page number (default 1)."
+              },
+              {
+                "name": "items",
+                "value": "",
+                "type": "query",
+                "description": "Page size (default 100, max 1000)."
+              }
+            ]
+          },
+          "docs": "List versions of a specification"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

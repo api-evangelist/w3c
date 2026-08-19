@@ -1,0 +1,250 @@
+{
+  "item": [
+    {
+      "id": "85c9c940-ec8b-4692-a80a-5c705d5da135",
+      "name": "Affiliations",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "34df7bf7-2800-48ca-afc7-3e0c581a4e2e",
+          "name": "List affiliations",
+          "request": {
+            "name": "List affiliations",
+            "description": {},
+            "url": {
+              "path": [
+                "affiliations"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": false,
+                  "key": "page",
+                  "value": "1",
+                  "description": "Page number (default 1)."
+                },
+                {
+                  "disabled": false,
+                  "key": "items",
+                  "value": "100",
+                  "description": "Page size (default 100, max 1000)."
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "68bd825c-3f19-433f-a7df-0c3de261ad82",
+              "name": "Paginated affiliations collection",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "affiliations"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "key": "page",
+                      "value": "1"
+                    },
+                    {
+                      "key": "items",
+                      "value": "100"
+                    }
+                  ],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"key_0\": \"string\",\n  \"key_1\": 6951,\n  \"key_2\": true,\n  \"key_3\": 2413\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "fa601127-9da3-4a0a-88a4-90084db163ab",
+          "name": "Get an affiliation by ID",
+          "request": {
+            "name": "Get an affiliation by ID",
+            "description": {},
+            "url": {
+              "path": [
+                "affiliations",
+                ":id"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<integer>",
+                  "key": "id",
+                  "description": "(Required) "
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "c14fe3bc-ff70-44a5-b3f4-ac817572d33f",
+              "name": "Affiliation details",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "affiliations",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<integer>",
+                      "key": "id",
+                      "description": "(Required) "
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"key_0\": \"string\",\n  \"key_1\": 6951,\n  \"key_2\": true,\n  \"key_3\": 2413\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "id": "ca0987a4-7105-46c4-aa04-6c3ffbd16711",
+              "name": "Resource not found",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "affiliations",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<integer>",
+                      "key": "id",
+                      "description": "(Required) "
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "Not Found",
+              "code": 404,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"code\": 2155,\n  \"message\": \"string\"\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://api.w3.org",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "6b1650ba-0348-4fa9-858c-44ff0f5bfb86",
+    "name": "W3C Affiliations API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "The W3C API provides programmatic access to W3C data including specifications,\nworking groups, editors, translations, and affiliations.\n\nAll access is over HTTPS via `api.w3.org`. Data is returned as JSON with\nISO 8601 timestamps. No authentication is required; the rate limit is\n6000 requests per IP per 10 minutes.\n\nDocumentation: https://api.w3.org/doc\n\n\nContact Support:\n Name: W3C",
+      "type": "text/plain"
+    }
+  }
+}

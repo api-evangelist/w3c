@@ -1,0 +1,121 @@
+{
+  "item": [
+    {
+      "id": "b495bc1d-ae35-4463-802e-0b65faff8cce",
+      "name": "Translations",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "b516ab62-0250-4f51-bbae-849113755520",
+          "name": "List translations",
+          "request": {
+            "name": "List translations",
+            "description": {},
+            "url": {
+              "path": [
+                "translations"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": false,
+                  "key": "page",
+                  "value": "1",
+                  "description": "Page number (default 1)."
+                },
+                {
+                  "disabled": false,
+                  "key": "items",
+                  "value": "100",
+                  "description": "Page size (default 100, max 1000)."
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "e2ea97ab-8214-4a26-afe3-e0afe2aa1960",
+              "name": "Paginated translations collection",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "translations"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "key": "page",
+                      "value": "1"
+                    },
+                    {
+                      "key": "items",
+                      "value": "100"
+                    }
+                  ],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"key_0\": false,\n  \"key_1\": \"string\"\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://api.w3.org",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "ef4013c3-042e-4c72-be63-d597bd7e657d",
+    "name": "W3C Affiliations Translations API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "The W3C API provides programmatic access to W3C data including specifications,\nworking groups, editors, translations, and affiliations.\n\nAll access is over HTTPS via `api.w3.org`. Data is returned as JSON with\nISO 8601 timestamps. No authentication is required; the rate limit is\n6000 requests per IP per 10 minutes.\n\nDocumentation: https://api.w3.org/doc\n\n\nContact Support:\n Name: W3C",
+      "type": "text/plain"
+    }
+  }
+}

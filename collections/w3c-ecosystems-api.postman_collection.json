@@ -1,0 +1,121 @@
+{
+  "item": [
+    {
+      "id": "546f1b38-c417-4120-9739-81af1d4cc34d",
+      "name": "Ecosystems",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "d2498aa8-9de3-4fe5-a657-d1f720761dd8",
+          "name": "List ecosystems",
+          "request": {
+            "name": "List ecosystems",
+            "description": {},
+            "url": {
+              "path": [
+                "ecosystems"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": false,
+                  "key": "page",
+                  "value": "1",
+                  "description": "Page number (default 1)."
+                },
+                {
+                  "disabled": false,
+                  "key": "items",
+                  "value": "100",
+                  "description": "Page size (default 100, max 1000)."
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "3d8930b8-fea2-4b1a-8557-a18fb8a6ab3d",
+              "name": "Paginated ecosystems collection",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "ecosystems"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "key": "page",
+                      "value": "1"
+                    },
+                    {
+                      "key": "items",
+                      "value": "100"
+                    }
+                  ],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"key_0\": 2315,\n  \"key_1\": true\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://api.w3.org",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "e27e5636-ed87-442a-839a-f0761b027877",
+    "name": "W3C Affiliations Ecosystems API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "The W3C API provides programmatic access to W3C data including specifications,\nworking groups, editors, translations, and affiliations.\n\nAll access is over HTTPS via `api.w3.org`. Data is returned as JSON with\nISO 8601 timestamps. No authentication is required; the rate limit is\n6000 requests per IP per 10 minutes.\n\nDocumentation: https://api.w3.org/doc\n\n\nContact Support:\n Name: W3C",
+      "type": "text/plain"
+    }
+  }
+}

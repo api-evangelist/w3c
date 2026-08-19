@@ -1,0 +1,369 @@
+{
+  "item": [
+    {
+      "id": "d2d229b3-5dc7-4729-b497-0b041dc68443",
+      "name": "Specifications",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "1fa14d0d-e7a2-41e5-81a9-10b827d311d7",
+          "name": "List specifications",
+          "request": {
+            "name": "List specifications",
+            "description": {},
+            "url": {
+              "path": [
+                "specifications"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": false,
+                  "key": "page",
+                  "value": "1",
+                  "description": "Page number (default 1)."
+                },
+                {
+                  "disabled": false,
+                  "key": "items",
+                  "value": "100",
+                  "description": "Page size (default 100, max 1000)."
+                },
+                {
+                  "disabled": false,
+                  "key": "embed",
+                  "value": "<boolean>",
+                  "description": "Embed related resources on supported routes."
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "31634589-1dfe-4659-a805-4131287b2553",
+              "name": "Paginated specifications collection",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "specifications"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "key": "page",
+                      "value": "1"
+                    },
+                    {
+                      "key": "items",
+                      "value": "100"
+                    },
+                    {
+                      "key": "embed",
+                      "value": "<boolean>"
+                    }
+                  ],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"page\": 798,\n  \"limit\": 4044,\n  \"pages\": 4208,\n  \"total\": 7382,\n  \"_links\": {\n    \"self\": {\n      \"href\": \"https://VdV.iwiFiZ.q1WjURMyBVDPxwkpMbxHjwdE,GGZxwmPktUR9zjqxaa38smWeO02h57faYA5az\",\n      \"title\": \"string\"\n    },\n    \"first\": {\n      \"href\": \"https://dbTdWKKnDYWXSFGPDTFPSZSnJWS.ryaVNlLppDuHQVXDHzTZ9+ptueoC0NgkUsd+sRKsu\",\n      \"title\": \"string\"\n    },\n    \"last\": {\n      \"href\": \"https://kCyItQMGLpKefTZxJQKVsaIvhG.nkecTMQGckt71UpSfjbFJsZ3zg3qxD8J4r\",\n      \"title\": \"string\"\n    },\n    \"next\": {\n      \"href\": \"https://peGFAZymTPvCwxIpEdvhMyNyPCEhNdn.bbqUukRl+eLqe.N9SZpCGT2O-QrgRkyZAoLO\",\n      \"title\": \"string\"\n    },\n    \"prev\": {\n      \"href\": \"http://bOxjeIlyvKPwrphXlAP.numpB.5dJ.BRUitKGHMWngTufk+MGQegSqy9cUpulFGYiBE81\",\n      \"title\": \"string\"\n    },\n    \"specifications\": [\n      {\n        \"href\": \"http://WxIBLipuhywkfAERMwmYNPwkxMi.znjQB55guScswbAPr37dN53axZ7wU-ZPGGedWikopIEmLvr\",\n        \"title\": \"string\"\n      },\n      {\n        \"href\": \"https://nsuhcGYwAQNkTdqi.ozhhCyt9Wl2iO6Ak9RfYT+17m-CG8iemd+9Pd0\",\n        \"title\": \"string\"\n      }\n    ]\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "d070ec84-1a1b-4765-9a39-88e834dc55dd",
+          "name": "Get a specification by shortname",
+          "request": {
+            "name": "Get a specification by shortname",
+            "description": {},
+            "url": {
+              "path": [
+                "specifications",
+                ":shortname"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "shortname",
+                  "description": "(Required) W3C specification shortname (e.g. `html52`, `wcag22`)."
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "66f32c79-c79c-41bb-b37e-51fc83d17a4b",
+              "name": "Specification details",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "specifications",
+                    ":shortname"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "shortname",
+                      "description": "(Required) W3C specification shortname (e.g. `html52`, `wcag22`)."
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"shortname\": \"string\",\n  \"title\": \"string\",\n  \"description\": \"string\",\n  \"editor-draft\": \"https://EURqOqgrDrvhzX.xkje1wDmIlLobPJ9dUs6iED2Rxg,pynINAlsv+N9.8YZkP\",\n  \"series\": {\n    \"key_0\": 2396.8188670818336,\n    \"key_1\": 816.1824262770001\n  },\n  \"_links\": {\n    \"key_0\": 7672,\n    \"key_1\": \"string\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "id": "5b85763e-0272-46de-8d56-58091c4d6c5b",
+              "name": "Resource not found",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "specifications",
+                    ":shortname"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "shortname",
+                      "description": "(Required) W3C specification shortname (e.g. `html52`, `wcag22`)."
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "Not Found",
+              "code": 404,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"code\": 7496,\n  \"message\": \"string\"\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "1d7d9f74-b123-4fb8-a55d-96ea8d980e3a",
+          "name": "List versions of a specification",
+          "request": {
+            "name": "List versions of a specification",
+            "description": {},
+            "url": {
+              "path": [
+                "specifications",
+                ":shortname",
+                "versions"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": false,
+                  "key": "page",
+                  "value": "1",
+                  "description": "Page number (default 1)."
+                },
+                {
+                  "disabled": false,
+                  "key": "items",
+                  "value": "100",
+                  "description": "Page size (default 100, max 1000)."
+                }
+              ],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "shortname",
+                  "description": "(Required) W3C specification shortname (e.g. `html52`, `wcag22`)."
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "d43cd09a-763f-462f-a1ef-7f8909557ada",
+              "name": "Versions collection",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "specifications",
+                    ":shortname",
+                    "versions"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "key": "page",
+                      "value": "1"
+                    },
+                    {
+                      "key": "items",
+                      "value": "100"
+                    }
+                  ],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "shortname",
+                      "description": "(Required) W3C specification shortname (e.g. `html52`, `wcag22`)."
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"key_0\": 5253.496866830301\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://api.w3.org",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "f9364973-2052-40a8-8427-08784cba9ef4",
+    "name": "W3C Affiliations Specifications API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "The W3C API provides programmatic access to W3C data including specifications,\nworking groups, editors, translations, and affiliations.\n\nAll access is over HTTPS via `api.w3.org`. Data is returned as JSON with\nISO 8601 timestamps. No authentication is required; the rate limit is\n6000 requests per IP per 10 minutes.\n\nDocumentation: https://api.w3.org/doc\n\n\nContact Support:\n Name: W3C",
+      "type": "text/plain"
+    }
+  }
+}
