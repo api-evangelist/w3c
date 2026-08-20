@@ -46,6 +46,11 @@ apis:
   humanURL: https://api.w3.org/
   baseUrl: https://api.w3.org/
   tags:
+  - Data
+  - Specifications
+  - Standards
+  - W3C
+  tags_raw:
   - API
   - Data
   - Specifications
@@ -254,6 +259,8 @@ apis:
   description: The Groups API from W3C — 2 operation(s) for groups.
   humanURL: https://api.w3.org/
   tags:
+  - Group
+  tags_raw:
   - Groups
   properties:
   - type: OpenAPI
