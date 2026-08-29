@@ -10,6 +10,17 @@ description: >-
   Credentials, and hundreds of other foundational web technologies. W3C operates
   through Working Groups, Interest Groups, and Community Groups that develop
   specifications through a consensus-based process, resulting in W3C Recommendations.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: true
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - openapi
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
