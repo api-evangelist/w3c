@@ -58,7 +58,7 @@ apis:
   baseUrl: https://api.w3.org/
   tags:
   - Data
-  - Specifications
+  - Specification
   - Standards
   - W3C
   tags_raw:
@@ -261,6 +261,8 @@ apis:
   description: The Ecosystems API from W3C — 1 operation(s) for ecosystems.
   humanURL: https://api.w3.org/
   tags:
+  - Ecosystem
+  tags_raw:
   - Ecosystems
   properties:
   - type: OpenAPI
@@ -281,6 +283,8 @@ apis:
   description: The Specifications API from W3C — 3 operation(s) for specifications.
   humanURL: https://api.w3.org/
   tags:
+  - Specification
+  tags_raw:
   - Specifications
   properties:
   - type: OpenAPI
@@ -290,6 +294,8 @@ apis:
   description: The Translations API from W3C — 1 operation(s) for translations.
   humanURL: https://api.w3.org/
   tags:
+  - Translation
+  tags_raw:
   - Translations
   properties:
   - type: OpenAPI
