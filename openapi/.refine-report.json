@@ -1,11 +1,7 @@
 {
   "provider": "w3c",
   "sources": [
-    "w3c-affiliations-api-openapi.yml",
-    "w3c-ecosystems-api-openapi.yml",
-    "w3c-groups-api-openapi.yml",
-    "w3c-specifications-api-openapi.yml",
-    "w3c-translations-api-openapi.yml"
+    "_original/w3c-openapi.yml"
   ],
   "outputs": [
     "w3c-affiliations-api-openapi.yml",
@@ -17,6 +13,16 @@
   "archived": [],
   "errors": [],
   "warnings": [],
-  "notes": [],
-  "skipped": []
+  "notes": [
+    "sourced from openapi/_original/ (1 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "w3c-openapi.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "apis.yml register: already-registered"
+  ],
+  "skipped": [
+    "w3c-affiliations-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "w3c-ecosystems-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "w3c-groups-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "w3c-specifications-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "w3c-translations-api-openapi.yml: previously refined output, superseded by openapi/_original/"
+  ]
 }

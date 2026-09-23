@@ -1,6 +1,6 @@
-openapi: 3.1.0
+openapi: 3.2.0
 info:
-  title: W3C Affiliations Groups API
+  title: W3C Groups API
   version: 1.0.0
   summary: Read-only JSON API for W3C specifications, groups, ecosystems, translations, and affiliations.
   description: 'The W3C API provides programmatic access to W3C data including specifications,
@@ -15,9 +15,7 @@ info:
     6000 requests per IP per 10 minutes.
 
 
-    Documentation: https://api.w3.org/doc
-
-    '
+    Documentation: https://api.w3.org/doc'
   contact:
     name: W3C
     url: https://www.w3.org/
@@ -63,6 +61,14 @@ paths:
           $ref: '#/components/responses/NotFound'
 components:
   schemas:
+    Link:
+      type: object
+      properties:
+        href:
+          type: string
+          format: uri
+        title:
+          type: string
     GroupList:
       type: object
       properties:
@@ -83,26 +89,6 @@ components:
                 type: array
                 items:
                   $ref: '#/components/schemas/Link'
-    HalLinks:
-      type: object
-      properties:
-        self:
-          $ref: '#/components/schemas/Link'
-        first:
-          $ref: '#/components/schemas/Link'
-        last:
-          $ref: '#/components/schemas/Link'
-        next:
-          $ref: '#/components/schemas/Link'
-        prev:
-          $ref: '#/components/schemas/Link'
-    Error:
-      type: object
-      properties:
-        code:
-          type: integer
-        message:
-          type: string
     Group:
       type: object
       properties:
@@ -132,21 +118,27 @@ components:
         _links:
           type: object
           additionalProperties: true
-    Link:
+    Error:
       type: object
       properties:
-        href:
+        code:
+          type: integer
+        message:
           type: string
-          format: uri
-        title:
-          type: string
+    HalLinks:
+      type: object
+      properties:
+        self:
+          $ref: '#/components/schemas/Link'
+        first:
+          $ref: '#/components/schemas/Link'
+        last:
+          $ref: '#/components/schemas/Link'
+        next:
+          $ref: '#/components/schemas/Link'
+        prev:
+          $ref: '#/components/schemas/Link'
   parameters:
-    Embed:
-      name: embed
-      in: query
-      description: Embed related resources on supported routes.
-      schema:
-        type: boolean
     Page:
       name: page
       in: query
@@ -170,6 +162,12 @@ components:
       required: true
       schema:
         type: integer
+    Embed:
+      name: embed
+      in: query
+      description: Embed related resources on supported routes.
+      schema:
+        type: boolean
   responses:
     NotFound:
       description: Resource not found
