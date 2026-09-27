@@ -12,14 +12,22 @@ description: >-
   specifications through a consensus-based process, resulting in W3C Recommendations.
 deliveryModel:
   model: unknown
-  open_source: false
+  license_evidence:
+    not_product:
+    - w3c/aria
+    - w3c/csswg-drafts
+    - w3c/digital-credentials
+    - w3c/json-ld-syntax
+    - w3c/rdf-star-wg
+  open_source: unknown
   commercial: false
   callable_host: true
   label: Delivery model not determined — needs a product licence on record
   confidence: low
   source:
   - openapi
-  generated: '2026-08-28'
+  - repository-not-product
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: freemium

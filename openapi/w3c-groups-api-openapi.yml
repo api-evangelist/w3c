@@ -61,14 +61,6 @@ paths:
           $ref: '#/components/responses/NotFound'
 components:
   schemas:
-    Link:
-      type: object
-      properties:
-        href:
-          type: string
-          format: uri
-        title:
-          type: string
     GroupList:
       type: object
       properties:
@@ -89,6 +81,26 @@ components:
                 type: array
                 items:
                   $ref: '#/components/schemas/Link'
+    HalLinks:
+      type: object
+      properties:
+        self:
+          $ref: '#/components/schemas/Link'
+        first:
+          $ref: '#/components/schemas/Link'
+        last:
+          $ref: '#/components/schemas/Link'
+        next:
+          $ref: '#/components/schemas/Link'
+        prev:
+          $ref: '#/components/schemas/Link'
+    Error:
+      type: object
+      properties:
+        code:
+          type: integer
+        message:
+          type: string
     Group:
       type: object
       properties:
@@ -118,26 +130,14 @@ components:
         _links:
           type: object
           additionalProperties: true
-    Error:
+    Link:
       type: object
       properties:
-        code:
-          type: integer
-        message:
+        href:
           type: string
-    HalLinks:
-      type: object
-      properties:
-        self:
-          $ref: '#/components/schemas/Link'
-        first:
-          $ref: '#/components/schemas/Link'
-        last:
-          $ref: '#/components/schemas/Link'
-        next:
-          $ref: '#/components/schemas/Link'
-        prev:
-          $ref: '#/components/schemas/Link'
+          format: uri
+        title:
+          type: string
   parameters:
     Page:
       name: page
@@ -147,6 +147,12 @@ components:
         type: integer
         default: 1
         minimum: 1
+    Embed:
+      name: embed
+      in: query
+      description: Embed related resources on supported routes.
+      schema:
+        type: boolean
     Items:
       name: items
       in: query
@@ -162,12 +168,6 @@ components:
       required: true
       schema:
         type: integer
-    Embed:
-      name: embed
-      in: query
-      description: Embed related resources on supported routes.
-      schema:
-        type: boolean
   responses:
     NotFound:
       description: Resource not found

@@ -79,6 +79,46 @@ paths:
                 additionalProperties: true
 components:
   schemas:
+    SpecificationList:
+      type: object
+      properties:
+        page:
+          type: integer
+        limit:
+          type: integer
+        pages:
+          type: integer
+        total:
+          type: integer
+        _links:
+          allOf:
+          - $ref: '#/components/schemas/HalLinks'
+          - type: object
+            properties:
+              specifications:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Link'
+    HalLinks:
+      type: object
+      properties:
+        self:
+          $ref: '#/components/schemas/Link'
+        first:
+          $ref: '#/components/schemas/Link'
+        last:
+          $ref: '#/components/schemas/Link'
+        next:
+          $ref: '#/components/schemas/Link'
+        prev:
+          $ref: '#/components/schemas/Link'
+    Error:
+      type: object
+      properties:
+        code:
+          type: integer
+        message:
+          type: string
     Link:
       type: object
       properties:
@@ -105,46 +145,6 @@ components:
         _links:
           type: object
           additionalProperties: true
-    SpecificationList:
-      type: object
-      properties:
-        page:
-          type: integer
-        limit:
-          type: integer
-        pages:
-          type: integer
-        total:
-          type: integer
-        _links:
-          allOf:
-          - $ref: '#/components/schemas/HalLinks'
-          - type: object
-            properties:
-              specifications:
-                type: array
-                items:
-                  $ref: '#/components/schemas/Link'
-    Error:
-      type: object
-      properties:
-        code:
-          type: integer
-        message:
-          type: string
-    HalLinks:
-      type: object
-      properties:
-        self:
-          $ref: '#/components/schemas/Link'
-        first:
-          $ref: '#/components/schemas/Link'
-        last:
-          $ref: '#/components/schemas/Link'
-        next:
-          $ref: '#/components/schemas/Link'
-        prev:
-          $ref: '#/components/schemas/Link'
   parameters:
     Page:
       name: page
@@ -154,6 +154,12 @@ components:
         type: integer
         default: 1
         minimum: 1
+    Embed:
+      name: embed
+      in: query
+      description: Embed related resources on supported routes.
+      schema:
+        type: boolean
     Shortname:
       name: shortname
       in: path
@@ -170,12 +176,6 @@ components:
         default: 100
         minimum: 1
         maximum: 1000
-    Embed:
-      name: embed
-      in: query
-      description: Embed related resources on supported routes.
-      schema:
-        type: boolean
   responses:
     NotFound:
       description: Resource not found

@@ -85,6 +85,13 @@ components:
       required: true
       schema:
         type: integer
+  responses:
+    NotFound:
+      description: Resource not found
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
   schemas:
     Error:
       type: object
@@ -93,10 +100,3 @@ components:
           type: integer
         message:
           type: string
-  responses:
-    NotFound:
-      description: Resource not found
-      content:
-        application/json:
-          schema:
-            $ref: '#/components/schemas/Error'
