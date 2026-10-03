@@ -61,15 +61,21 @@ paths:
         '404':
           $ref: '#/components/responses/NotFound'
 components:
+  schemas:
+    Error:
+      type: object
+      properties:
+        code:
+          type: integer
+        message:
+          type: string
   parameters:
-    Page:
-      name: page
-      in: query
-      description: Page number (default 1).
+    NumericID:
+      name: id
+      in: path
+      required: true
       schema:
         type: integer
-        default: 1
-        minimum: 1
     Items:
       name: items
       in: query
@@ -79,12 +85,14 @@ components:
         default: 100
         minimum: 1
         maximum: 1000
-    NumericID:
-      name: id
-      in: path
-      required: true
+    Page:
+      name: page
+      in: query
+      description: Page number (default 1).
       schema:
         type: integer
+        default: 1
+        minimum: 1
   responses:
     NotFound:
       description: Resource not found
@@ -92,11 +100,3 @@ components:
         application/json:
           schema:
             $ref: '#/components/schemas/Error'
-  schemas:
-    Error:
-      type: object
-      properties:
-        code:
-          type: integer
-        message:
-          type: string

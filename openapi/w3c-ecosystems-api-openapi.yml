@@ -44,14 +44,6 @@ paths:
                 additionalProperties: true
 components:
   parameters:
-    Page:
-      name: page
-      in: query
-      description: Page number (default 1).
-      schema:
-        type: integer
-        default: 1
-        minimum: 1
     Items:
       name: items
       in: query
@@ -61,3 +53,11 @@ components:
         default: 100
         minimum: 1
         maximum: 1000
+    Page:
+      name: page
+      in: query
+      description: Page number (default 1).
+      schema:
+        type: integer
+        default: 1
+        minimum: 1
