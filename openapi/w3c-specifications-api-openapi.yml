@@ -79,13 +79,6 @@ paths:
                 additionalProperties: true
 components:
   schemas:
-    Error:
-      type: object
-      properties:
-        code:
-          type: integer
-        message:
-          type: string
     Specification:
       type: object
       properties:
@@ -104,27 +97,6 @@ components:
         _links:
           type: object
           additionalProperties: true
-    Link:
-      type: object
-      properties:
-        href:
-          type: string
-          format: uri
-        title:
-          type: string
-    HalLinks:
-      type: object
-      properties:
-        self:
-          $ref: '#/components/schemas/Link'
-        first:
-          $ref: '#/components/schemas/Link'
-        last:
-          $ref: '#/components/schemas/Link'
-        next:
-          $ref: '#/components/schemas/Link'
-        prev:
-          $ref: '#/components/schemas/Link'
     SpecificationList:
       type: object
       properties:
@@ -145,7 +117,56 @@ components:
                 type: array
                 items:
                   $ref: '#/components/schemas/Link'
+    HalLinks:
+      type: object
+      properties:
+        self:
+          $ref: '#/components/schemas/Link'
+        first:
+          $ref: '#/components/schemas/Link'
+        last:
+          $ref: '#/components/schemas/Link'
+        next:
+          $ref: '#/components/schemas/Link'
+        prev:
+          $ref: '#/components/schemas/Link'
+    Error:
+      type: object
+      properties:
+        code:
+          type: integer
+        message:
+          type: string
+    Link:
+      type: object
+      properties:
+        href:
+          type: string
+          format: uri
+        title:
+          type: string
   parameters:
+    Embed:
+      name: embed
+      in: query
+      description: Embed related resources on supported routes.
+      schema:
+        type: boolean
+    Shortname:
+      name: shortname
+      in: path
+      required: true
+      description: W3C specification shortname (e.g. `html52`, `wcag22`).
+      schema:
+        type: string
+    Page:
+      name: page
+      in: query
+      description: Page number (default 1).
+      schema:
+        type: integer
+        default: 1
+        minimum: 1
     Items:
       name: items
       in: query
@@ -155,27 +176,6 @@ components:
         default: 100
         minimum: 1
         maximum: 1000
-    Shortname:
-      name: shortname
-      in: path
-      required: true
-      description: W3C specification shortname (e.g. `html52`, `wcag22`).
-      schema:
-        type: string
-    Embed:
-      name: embed
-      in: query
-      description: Embed related resources on supported routes.
-      schema:
-        type: boolean
-    Page:
-      name: page
-      in: query
-      description: Page number (default 1).
-      schema:
-        type: integer
-        default: 1
-        minimum: 1
   responses:
     NotFound:
       description: Resource not found
