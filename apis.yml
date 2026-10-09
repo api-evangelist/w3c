@@ -309,6 +309,12 @@ apis:
   - type: OpenAPI
     url: openapi/w3c-translations-api-openapi.yml
 common:
+  - type: Plans
+    url: plans/w3c-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/w3c-rate-limits.yml
+  - type: FinOps
+    url: finops/w3c-finops.yml
   - type: AgenticAccess
     url: agentic-access/w3c-agentic-access.yml
   - type: DomainSecurity

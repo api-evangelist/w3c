@@ -1,0 +1,27 @@
+# Front Door AI Index — w3c — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: w3c
+  lexicon_version: '1.0'
+  probed_at: '2026-09-25'
+  host: json-ld.org
+  final_host: json-ld.org
+  ownership: own
+  owner: w3c
+  shares_host_with: null
+  inherited_from: null
+  alias_of: null
+  verdict: silent
+  score: 0
+  band: 1
+  band_label: silent
+  host_score: 0
+  density: 0.0
+  words: 646
+  tiers:
+    agentic: 0
+    core: 0
+    model: 0
+  ambiguous: 0
+  top_terms: null
